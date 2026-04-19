@@ -1,17 +1,15 @@
-import { useState } from "react";
-import ProjectGrid from "./components/ProjectGrid";
-import GraphView from "./components/GraphView";
+import Hero from "./components/Hero";
+import Skills from "./components/Skills";
+import ProjectsSection from "./components/ProjectsSection";
+import Contact from "./components/Contact";
 
 export default function App() {
-  const [activeSlug, setActiveSlug] = useState<string | null>(null);
-
   return (
     <div className="app">
-      {activeSlug ? (
-        <GraphView slug={activeSlug} onBack={() => setActiveSlug(null)} />
-      ) : (
-        <ProjectGrid onSelect={setActiveSlug} />
-      )}
+      <Hero />
+      <Skills />
+      <ProjectsSection />
+      <Contact />
     </div>
   );
 }
