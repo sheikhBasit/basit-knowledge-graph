@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "car-rental",
+    "project": "Car Rental System",
+    "category": "paid",
+    "description": "Full-stack car rental platform with booking, fleet management, and payment integration.",
+    "tech": ["Node.js", "React", "PostgreSQL", "Express"],
+    "repo": "https://github.com/sheikhBasit/carRentalBackend",
+    "role": "Full-Stack Developer"
+  },
+  {
+    "slug": "calmspace",
+    "project": "CalmSpace",
+    "category": "paid",
+    "description": "Mental wellness app with mood tracking, guided meditation, and therapist booking.",
+    "tech": ["React Native", "Node.js", "PostgreSQL", "Firebase"],
+    "repo": "https://github.com/sheikhBasit/calmspace",
+    "role": "Full-Stack Developer"
+  },
+  {
+    "slug": "paf-sports",
+    "project": "PAF Sports Board",
+    "category": "paid",
+    "description": "Official website for Pakistan Air Force Sports Board — event management and athlete profiles.",
+    "tech": ["React", "Node.js", "PostgreSQL"],
+    "repo": "https://github.com/sheikhBasit/paf",
+    "role": "Full-Stack Developer"
+  },
+  {
+    "slug": "ecommerce-madnisofts",
+    "project": "EcommerceMadnisofts",
+    "category": "paid",
+    "description": "Full-featured e-commerce platform with product management, cart, and order tracking.",
+    "tech": ["React", "Node.js", "MongoDB", "Express"],
+    "repo": "https://github.com/Engghassanali/EcommerceMadnisofts",
+    "role": "Backend Developer"
+  },
+  {
+    "slug": "foodie-app",
+    "project": "Foodie App",
+    "category": "paid",
+    "description": "Food delivery app with restaurant listings, real-time order tracking, and driver management.",
+    "tech": ["React Native", "Node.js", "PostgreSQL"],
+    "repo": "https://github.com/Engghassanali/foodieApp",
+    "role": "Backend Developer"
+  },
+  {
+    "slug": "livekick",
+    "project": "LiveKick",
+    "category": "paid",
+    "description": "Live sports streaming platform with real-time match scores and commentary.",
+    "tech": ["React Native", "Node.js", "WebSockets", "PostgreSQL"],
+    "repo": "https://github.com/Nouman13388/livekick",
+    "role": "Backend Developer"
+  },
+  {
+    "slug": "fixibot-fyp",
+    "project": "FixiBot FYP",
+    "category": "fyp",
+    "description": "Final Year Project — AI-powered repair and maintenance chatbot with technician matching.",
+    "tech": ["React", "Node.js", "Python", "LangChain", "PostgreSQL"],
+    "repo": "https://github.com/Ushna-FS/FixiBot-FYP",
+    "role": "Full-Stack Developer · AI Integration"
+  }
+]
