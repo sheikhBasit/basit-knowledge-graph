@@ -1,0 +1,709 @@
+{
+  "project": "IImiAI-Tafseer-AbdulBasit",
+  "slug": "iimiai-tafseer-abdulbasit",
+  "description": "The project provides digital access to the Abdul Baset Quran commentary in Urdu.",
+  "nodes": [
+    {
+      "id": "iimiai-tafseer-abdulbasit",
+      "label": "IImiAI-Tafseer-AbdulBasit",
+      "depth": 0,
+      "summary": "The project provides digital access to the Abdul Baset Quran commentary in Urdu.",
+      "children": [
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/app.py",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/app.py",
+      "label": "app.py",
+      "depth": 1,
+      "summary": "The entry point file app.py initializes the 'IImiAI-Tafseer-AbdulBasit' app's data and functionality.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "label": "books",
+      "depth": 1,
+      "summary": "This folder likely contains digital copies of the Tafseer Abdul Basit text in book format.",
+      "children": [
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/WebScraper.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/complete_quran_data.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/resources.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/arabic-tafsir-muyassar.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/arabic-tanweer.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/arabic-jalalayn.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/arabic-al-qurtubi.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/arabic-tafsir-al-wasit.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/arabic-tafsir-muyassar.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/Webscraper.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/resources.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/Surah_Data_Extractor_and_JSON_Formatter.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/resources.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/Quran_Tafsir_Scraper.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/resources.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/Quran_Tafsir_Scraper.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/resources.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/Bayan ul quran.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/tazikru-quran.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/notebook2bc19e93a0.ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/tafseer.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/arabic-al-baghwi(1).ipynb",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/readme.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/tafseer.json"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/WebScraper.ipynb",
+      "label": "WebScraper.ipynb",
+      "depth": 2,
+      "summary": "WebScraper.ipynb extracts IDs and classes from the Quran website for the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/complete_quran_data.json",
+      "label": "complete_quran_data.json",
+      "depth": 2,
+      "summary": "This file contains metadata for the complete Quran data in the 'IImiAI-Tafseer-AbdulBasit' project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/resources.md",
+      "label": "resources.md",
+      "depth": 2,
+      "summary": "This file documents the project's resources, including URLs for Quran tafseer and translation.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "The tafseer.json file stores Tafseer data for the Quran, providing explanation and commentary.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/arabic-tafsir-muyassar.ipynb",
+      "label": "arabic-tafsir-muyassar.ipynb",
+      "depth": 2,
+      "summary": "This file provides a Jupyter notebook for exploring Arabic Tafsir (interpretation) in a Mujassar format in the 'IImiAI-Tafseer-AbdulBasit' project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This file provides metadata for IImiAI-Tafseer-AbdulBasit, a Quran Tafsir dataset.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "The file contains data about Surah 1, Al-Fatihah, with its translation and explanation.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/arabic-tanweer.ipynb",
+      "label": "arabic-tanweer.ipynb",
+      "depth": 2,
+      "summary": "This file is a Jupyter Notebook in Python that implements Arabic tanweer functionality for the project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This file serves as the main README documentation for the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "The tafseer.json file contains detailed explanations for Ayat within the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/arabic-jalalayn.ipynb",
+      "label": "arabic-jalalayn.ipynb",
+      "depth": 2,
+      "summary": "This file uses Python 3 to implement Tafseer Abdul Basit's Jalalayn commentary on the Quran.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This file provides a URL link for Jalalayn Tafsir of the Quran verse in Abdul Basit's recitation.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "This file, tafseer.json, contains Tafseer details of the Holy Quran.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/arabic-al-qurtubi.ipynb",
+      "label": "arabic-al-qurtubi.ipynb",
+      "depth": 2,
+      "summary": "This notebook is part of the IImiAI-Tafseer-AbdulBasit project, containing code for analyzing Arabic text data.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This script fetches Tafseer Al Qurtubi data from the Quran.com API for IImiAI-Tafseer-AbdulBasit.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "This JSON file contains a single Tafseer entry for the first ayat of the 1st Surah in the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/arabic-tafsir-al-wasit.ipynb",
+      "label": "arabic-tafsir-al-wasit.ipynb",
+      "depth": 2,
+      "summary": "The 'arabic-tafsir-al-wasit.ipynb' file is a Jupyter Notebook for Tafsir Al-Wasit data processing within the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This file provides a brief description and setup guidance for the project's IImiAI-Tafseer-AbdulBasit tool.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "The tafseer.json file stores explanations for specific ayats from the Al-Fatihah surah.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/arabic-tafsir-muyassar.ipynb",
+      "label": "arabic-tafsir-muyassar.ipynb",
+      "depth": 2,
+      "summary": "This file provides a Jupyter notebook for exploring Arabic Tafsir (interpretation) in a Mujassar format in the 'IImiAI-Tafseer-AbdulBasit' project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This file provides metadata for IImiAI-Tafseer-AbdulBasit, a Quran Tafsir dataset.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "The file contains data about Surah 1, Al-Fatihah, with its translation and explanation.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/Webscraper.ipynb",
+      "label": "Webscraper.ipynb",
+      "depth": 2,
+      "summary": "The Webscraper.ipynb file fetches and extracts Tafseer Abdul Basit data from URLs.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/resources.md",
+      "label": "resources.md",
+      "depth": 2,
+      "summary": "This file provides the archived source path for the Ibn Abbas tafsir in English.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "This file contains the metadata for each surah of the Quran with its tafseer explanation.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/Surah_Data_Extractor_and_JSON_Formatter.ipynb",
+      "label": "Surah_Data_Extractor_and_JSON_Formatter.ipynb",
+      "depth": 2,
+      "summary": "This file installs the OpenAI library in the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/resources.md",
+      "label": "resources.md",
+      "depth": 2,
+      "summary": "This file lists relevant Quranic verse explanations for the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "This file, tafseer.json, contains the translation and commentary of Quran surahs.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/Quran_Tafsir_Scraper.ipynb",
+      "label": "Quran_Tafsir_Scraper.ipynb",
+      "depth": 2,
+      "summary": "This script scrapes Tafseer (Quranic commentary) data from the IImiAI-Tafseer-AbdulBasit web resource.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/resources.md",
+      "label": "resources.md",
+      "depth": 2,
+      "summary": "This file stores markdown resources for the IImiAI-Tafseer-AbdulBasit project, providing Quranic tafsirs.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "The tafseer.json file contains detailed Tafseer data for the Quranic Surah Al-Fatihah, its translation, and commentary.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/Quran_Tafsir_Scraper.ipynb",
+      "label": "Quran_Tafsir_Scraper.ipynb",
+      "depth": 2,
+      "summary": "This Python script fetches and extracts Quran tafsir content from a specified source.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/resources.md",
+      "label": "resources.md",
+      "depth": 2,
+      "summary": "This file contains URLs for Tafseer Abdul Basit commentary links in Quran.com.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "This file, tafseer.json, stores Tafseer (explanations) for the Quranic surahs in the AbdulBasit dataset.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/Bayan ul quran.ipynb",
+      "label": "Bayan ul quran.ipynb",
+      "depth": 2,
+      "summary": "This file automates the bayan of the Quran through Abdul Basit's recitation.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This script fetches explanations from Bayan Ul Quran Tafseer on Quran.com.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "This file contains Tafseer (interpretation) for each verse of the Quran.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This file provides a readme for the IImiAI-Tafseer-AbdulBasit project, a Quranic Tafseer system.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "This file contains tafseer (interpretations) of the Quran in Urdu for specific verses and surahs.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/tazikru-quran.ipynb",
+      "label": "tazikru-quran.ipynb",
+      "depth": 2,
+      "summary": "This file extracts and analyzes the Tazkiru and Ta'fseer of Abdul Baset's Quran recitation using Python 3.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/notebook2bc19e93a0.ipynb",
+      "label": "notebook2bc19e93a0.ipynb",
+      "depth": 2,
+      "summary": "This file translates Jupyter notebook 'notebook2bc19e93a0.ipynb' in 'IImiAI-Tafseer-AbdulBasit' project to Python 3 code.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This file serves as the main README documentation for the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "This file stores tafseer (commentary) for each ayat of the Quran.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/arabic-al-baghwi(1).ipynb",
+      "label": "arabic-al-baghwi(1).ipynb",
+      "depth": 2,
+      "summary": "This file appears to be a Python 3 notebook for processing arabic-al-baghwi(1) data within the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/readme.md",
+      "label": "readme.md",
+      "depth": 2,
+      "summary": "This script fetches and stores tafsirs from Al-Baghawi for a given Quranic verse.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/tafseer.json",
+      "label": "tafseer.json",
+      "depth": 2,
+      "summary": "The tafseer.json file stores annotated Tafseer (explanation) text for the IImiAI-Tafseer-AbdulBasit project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data",
+      "label": "data",
+      "depth": 1,
+      "summary": "This folder likely contains data associated with the Tafseer Abdul Basit project.",
+      "children": [
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/arabic.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/notes.md",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/surah_metadata.json",
+        "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/translation.json"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/arabic.json",
+      "label": "arabic.json",
+      "depth": 2,
+      "summary": "This file contains the Arabic text data for Quranic verses in the 'Quran_App' project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/notes.md",
+      "label": "notes.md",
+      "depth": 2,
+      "summary": "This file contains notes on Quran ayats with translations from the Tafseer book.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/surah_metadata.json",
+      "label": "surah_metadata.json",
+      "depth": 2,
+      "summary": "This file contains metadata for the Quran's surahs, used within the Quran_App project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/translation.json",
+      "label": "translation.json",
+      "depth": 2,
+      "summary": "This file contains translated Quranic verses data in Urdu from the \"IImiAI-Tafseer-AbdulBasit\" project.",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "iimiai-tafseer-abdulbasit",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/app.py"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/WebScraper.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/complete_quran_data.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/resources.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/1-dawateislami/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/arabic-tafsir-muyassar.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/10-Al Saddi Arabic/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/arabic-tanweer.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/11-Tanweer Tafsir Arabic/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/arabic-jalalayn.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/12-Al Jalalayn Arabic/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/arabic-al-qurtubi.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/13-Al-Qurtubi Arabic/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/arabic-tafsir-al-wasit.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/14-Al-Wasit Arabic/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/arabic-tafsir-muyassar.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/15-Muyassar Tafsir Arabic/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/Webscraper.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/resources.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/2-TafsirIbnAbbasInEnglish/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/Surah_Data_Extractor_and_JSON_Formatter.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/resources.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/3-Maarif Ul Quran English/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/Quran_Tafsir_Scraper.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/resources.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/4-Ibn Kathir English/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/Quran_Tafsir_Scraper.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/resources.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/5-Fe-Zalul-Quran Syed Qatab/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/Bayan ul quran.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/6-Bayan ul Quran/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/7-Tazkir ul Quran/tazikru-quran.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/notebook2bc19e93a0.ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/8-Maududi Tafsir English/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/arabic-al-baghwi(1).ipynb"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/readme.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/books/9-Al Baghwi/tafseer.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/arabic.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/notes.md"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/surah_metadata.json"
+    },
+    {
+      "source": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data",
+      "target": "iimiai-tafseer-abdulbasit/IImiAI-Tafseer-AbdulBasit/data/translation.json"
+    }
+  ]
+}

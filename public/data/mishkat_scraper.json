@@ -1,0 +1,16 @@
+{
+  "project": "mishkat_scraper",
+  "slug": "mishkat_scraper",
+  "description": "The project appears to be a web scraper for Mishkat content preview functionality extraction.",
+  "nodes": [
+    {
+      "id": "mishkat_scraper",
+      "label": "mishkat_scraper",
+      "depth": 0,
+      "summary": "The project appears to be a web scraper for Mishkat content preview functionality extraction.",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": []
+}

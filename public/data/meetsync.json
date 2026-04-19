@@ -1,0 +1,2190 @@
+{
+  "project": "MeetSync",
+  "slug": "meetsync",
+  "description": "MeetSync displays a preview of content within its chat interface.",
+  "nodes": [
+    {
+      "id": "meetsync",
+      "label": "MeetSync",
+      "depth": 0,
+      "summary": "MeetSync displays a preview of content within its chat interface.",
+      "children": [
+        "meetsync/MeetSync/backend",
+        "meetsync/MeetSync/docs",
+        "meetsync/MeetSync/frontend"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend",
+      "label": "backend",
+      "depth": 1,
+      "summary": "This folder contains backend code for the 'MeetSync' application.",
+      "children": [
+        "meetsync/MeetSync/backend/__init__.py",
+        "meetsync/MeetSync/backend/agent/.env.example",
+        "meetsync/MeetSync/backend/agent/Dockerfile",
+        "meetsync/MeetSync/backend/agent/meeting_notetaker.py",
+        "meetsync/MeetSync/backend/agent/requirements.txt",
+        "meetsync/MeetSync/backend/api/.env",
+        "meetsync/MeetSync/backend/api/.pytest_cache/.gitignore",
+        "meetsync/MeetSync/backend/api/.pytest_cache/CACHEDIR.TAG",
+        "meetsync/MeetSync/backend/api/.pytest_cache/README.md",
+        "meetsync/MeetSync/backend/api/.pytest_cache/v/cache/lastfailed",
+        "meetsync/MeetSync/backend/api/.pytest_cache/v/cache/nodeids",
+        "meetsync/MeetSync/backend/api/.ruff_cache/.gitignore",
+        "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/17114792940327630187",
+        "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/17671014081491996627",
+        "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/5677065686091399800",
+        "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/5879512717951758338",
+        "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/6027571958799371966",
+        "meetsync/MeetSync/backend/api/.ruff_cache/CACHEDIR.TAG",
+        "meetsync/MeetSync/backend/api/Dockerfile",
+        "meetsync/MeetSync/backend/api/__init__.py",
+        "meetsync/MeetSync/backend/api/alembic/env.py",
+        "meetsync/MeetSync/backend/api/alembic/script.py.mako",
+        "meetsync/MeetSync/backend/api/alembic.ini",
+        "meetsync/MeetSync/backend/api/config.py",
+        "meetsync/MeetSync/backend/api/database.py",
+        "meetsync/MeetSync/backend/api/dependencies/auth.py",
+        "meetsync/MeetSync/backend/api/endpoints/auth_endpoints.py",
+        "meetsync/MeetSync/backend/api/endpoints/health_endpoints.py",
+        "meetsync/MeetSync/backend/api/endpoints/meeting_endpoints.py",
+        "meetsync/MeetSync/backend/api/main.py",
+        "meetsync/MeetSync/backend/api/models/__init__.py",
+        "meetsync/MeetSync/backend/api/models/meeting_models.py",
+        "meetsync/MeetSync/backend/api/models/user_models.py",
+        "meetsync/MeetSync/backend/api/requirements.agent.txt",
+        "meetsync/MeetSync/backend/api/requirements.txt",
+        "meetsync/MeetSync/backend/api/schemas/auth_schemas.py",
+        "meetsync/MeetSync/backend/api/schemas/health_schemas.py",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+        "meetsync/MeetSync/backend/api/services/auth_service.py",
+        "meetsync/MeetSync/backend/api/services/livekit_service.py",
+        "meetsync/MeetSync/backend/api/services/summary_service.py",
+        "meetsync/MeetSync/backend/api/tests/.gitkeep",
+        "meetsync/MeetSync/backend/api/tests/test_health.py"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/agent/.env.example",
+      "label": ".env.example",
+      "depth": 2,
+      "summary": "This file is an environment configuration for the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/agent/Dockerfile",
+      "label": "Dockerfile",
+      "depth": 2,
+      "summary": "This Dockerfile builds and configures an environment for the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/agent/meeting_notetaker.py",
+      "label": "meeting_notetaker.py",
+      "depth": 2,
+      "summary": "The MeetSync Notetaker Agent joins meetings as a silent participant, saving transcripts internally.",
+      "children": [
+        "meetsync/MeetSync/backend/agent/meeting_notetaker.py/_headers"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/agent/meeting_notetaker.py/_headers",
+      "label": "_headers",
+      "depth": 3,
+      "summary": "_headers defined in meeting_notetaker.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/agent/requirements.txt",
+      "label": "requirements.txt",
+      "depth": 2,
+      "summary": "The MeetSync project requirements file lists dependencies necessary for the project's successful deployment.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.env",
+      "label": ".env",
+      "depth": 2,
+      "summary": "This file overrides configuration defaults in config.py for a local MeetSync development environment.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.pytest_cache/.gitignore",
+      "label": ".gitignore",
+      "depth": 2,
+      "summary": "The .gitignore file ignores files created by Pytest as part of the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.pytest_cache/CACHEDIR.TAG",
+      "label": "CACHEDIR.TAG",
+      "depth": 2,
+      "summary": "This file is a cache directory tag created by pytest for the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.pytest_cache/README.md",
+      "label": "README.md",
+      "depth": 2,
+      "summary": "This file describes the pytest cache directory and version control guidelines for the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.pytest_cache/v/cache/lastfailed",
+      "label": "lastfailed",
+      "depth": 2,
+      "summary": "This file tracks the last failed test files in the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.pytest_cache/v/cache/nodeids",
+      "label": "nodeids",
+      "depth": 2,
+      "summary": "The nodeids file appears to store an array of node IDs for the MeetSync application.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.ruff_cache/.gitignore",
+      "label": ".gitignore",
+      "depth": 2,
+      "summary": "This file, .gitignore, ignores unnecessary files and directories in the MeetSync project repository.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/17114792940327630187",
+      "label": "17114792940327630187",
+      "depth": 2,
+      "summary": ".",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/17671014081491996627",
+      "label": "17671014081491996627",
+      "depth": 2,
+      "summary": "\u0002 \b\b\b\b\u0018\u0002\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\u0018\b\b\b\b\b\b",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/5677065686091399800",
+      "label": "5677065686091399800",
+      "depth": 2,
+      "summary": "\b\u0001\u001c\u0002\u0001\b\u0004\u0004\u0004\u0004\u0004\b\u0004\b\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004\u0004",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/5879512717951758338",
+      "label": "5879512717951758338",
+      "depth": 2,
+      "summary": "\u0011\n\nIn context with the MeetSync project the MeetSync file contains API authentication schemas.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/6027571958799371966",
+      "label": "6027571958799371966",
+      "depth": 2,
+      "summary": "uIwJ\bS\b\b\b\u0011\b\t\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b.\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/.ruff_cache/CACHEDIR.TAG",
+      "label": "CACHEDIR.TAG",
+      "depth": 2,
+      "summary": "This file is a cache tag used for integrity verification in the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/Dockerfile",
+      "label": "Dockerfile",
+      "depth": 2,
+      "summary": "The Dockerfile for the MeetSync project sets up a Python 3.11 environment for running the main application.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/alembic/env.py",
+      "label": "env.py",
+      "depth": 2,
+      "summary": "This file configures database migration tools for the MeetSync project's database schema.",
+      "children": [
+        "meetsync/MeetSync/backend/api/alembic/env.py/get_url",
+        "meetsync/MeetSync/backend/api/alembic/env.py/run_migrations_offline",
+        "meetsync/MeetSync/backend/api/alembic/env.py/run_migrations_online"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/alembic/env.py/get_url",
+      "label": "get_url",
+      "depth": 3,
+      "summary": "get_url defined in env.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/alembic/env.py/run_migrations_offline",
+      "label": "run_migrations_offline",
+      "depth": 3,
+      "summary": "run_migrations_offline defined in env.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/alembic/env.py/run_migrations_online",
+      "label": "run_migrations_online",
+      "depth": 3,
+      "summary": "run_migrations_online defined in env.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/alembic/script.py.mako",
+      "label": "script.py.mako",
+      "depth": 2,
+      "summary": "This script generates a database migration template for the MeetSync project using Alembic.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/alembic.ini",
+      "label": "alembic.ini",
+      "depth": 2,
+      "summary": "This file configures Alembic migration tools for the MeetSync project database connection.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/config.py",
+      "label": "config.py",
+      "depth": 2,
+      "summary": "This file, config.py, defines environment-specific settings for the MeetSync project.",
+      "children": [
+        "meetsync/MeetSync/backend/api/config.py/Settings"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/config.py/Settings",
+      "label": "Settings",
+      "depth": 3,
+      "summary": "Settings defined in config.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/database.py",
+      "label": "database.py",
+      "depth": 2,
+      "summary": "This file sets up database connectivity for MeetSync using SQLAlchemy and async generators.",
+      "children": [
+        "meetsync/MeetSync/backend/api/database.py/Base"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/database.py/Base",
+      "label": "Base",
+      "depth": 3,
+      "summary": "Base defined in database.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/dependencies/auth.py",
+      "label": "auth.py",
+      "depth": 2,
+      "summary": "This file authenticates internal API requests with a validated API key in the 'MeetSync' project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/endpoints/auth_endpoints.py",
+      "label": "auth_endpoints.py",
+      "depth": 2,
+      "summary": "This file defines authentication endpoints for the MeetSync project using FastAPI and Google authentication.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/endpoints/health_endpoints.py",
+      "label": "health_endpoints.py",
+      "depth": 2,
+      "summary": "This file provides a health check endpoint to verify MeetSync service status.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/endpoints/meeting_endpoints.py",
+      "label": "meeting_endpoints.py",
+      "depth": 2,
+      "summary": "This file defines HTTP endpoints for meeting-related operations in the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/main.py",
+      "label": "main.py",
+      "depth": 2,
+      "summary": "This file sets up the MeetSync API using FastAPI and enables CORS configuration.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/models/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "This file initializes models for the MeetSync project, making them importable.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/models/meeting_models.py",
+      "label": "meeting_models.py",
+      "depth": 2,
+      "summary": "Defines a Meeting model in the MeetSync project database with required attributes.",
+      "children": [
+        "meetsync/MeetSync/backend/api/models/meeting_models.py/Meeting",
+        "meetsync/MeetSync/backend/api/models/meeting_models.py/MeetingTranscript",
+        "meetsync/MeetSync/backend/api/models/meeting_models.py/MeetingSummary"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/models/meeting_models.py/Meeting",
+      "label": "Meeting",
+      "depth": 3,
+      "summary": "Meeting defined in meeting_models.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/models/meeting_models.py/MeetingTranscript",
+      "label": "MeetingTranscript",
+      "depth": 3,
+      "summary": "MeetingTranscript defined in meeting_models.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/models/meeting_models.py/MeetingSummary",
+      "label": "MeetingSummary",
+      "depth": 3,
+      "summary": "MeetingSummary defined in meeting_models.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/models/user_models.py",
+      "label": "user_models.py",
+      "depth": 2,
+      "summary": "This file defines the User model for the MeetSync project using SQLAlchemy ORM.",
+      "children": [
+        "meetsync/MeetSync/backend/api/models/user_models.py/User"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/models/user_models.py/User",
+      "label": "User",
+      "depth": 3,
+      "summary": "User defined in user_models.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/requirements.agent.txt",
+      "label": "requirements.agent.txt",
+      "depth": 2,
+      "summary": "This file lists required Python packages for the MeetSync project's agent functionality.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/requirements.txt",
+      "label": "requirements.txt",
+      "depth": 2,
+      "summary": "This file, requirements.txt, lists dependencies for the MeetSync project setup.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py",
+      "label": "auth_schemas.py",
+      "depth": 2,
+      "summary": "This file defines data models for authentication requests and responses in the MeetSync project.",
+      "children": [
+        "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/RegisterRequest",
+        "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/LoginRequest",
+        "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/GoogleAuthRequest",
+        "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/TokenResponse",
+        "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/UserResponse"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/RegisterRequest",
+      "label": "RegisterRequest",
+      "depth": 3,
+      "summary": "RegisterRequest defined in auth_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/LoginRequest",
+      "label": "LoginRequest",
+      "depth": 3,
+      "summary": "LoginRequest defined in auth_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/GoogleAuthRequest",
+      "label": "GoogleAuthRequest",
+      "depth": 3,
+      "summary": "GoogleAuthRequest defined in auth_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/TokenResponse",
+      "label": "TokenResponse",
+      "depth": 3,
+      "summary": "TokenResponse defined in auth_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/UserResponse",
+      "label": "UserResponse",
+      "depth": 3,
+      "summary": "UserResponse defined in auth_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/health_schemas.py",
+      "label": "health_schemas.py",
+      "depth": 2,
+      "summary": "Defines a HealthResponse schema for server health checks within MeetSync.",
+      "children": [
+        "meetsync/MeetSync/backend/api/schemas/health_schemas.py/HealthResponse"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/health_schemas.py/HealthResponse",
+      "label": "HealthResponse",
+      "depth": 3,
+      "summary": "HealthResponse defined in health_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "label": "meeting_schemas.py",
+      "depth": 2,
+      "summary": "This file defines meeting request schemas in the MeetSync project.",
+      "children": [
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/CreateMeetingRequest",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/JoinMeetingRequest",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/TranscriptLineRequest",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/TranscriptLineResponse",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/SummaryResponse",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/MeetingListResponse",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/MeetingResponse",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/CreateMeetingResponse",
+        "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/JoinTokenResponse"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/CreateMeetingRequest",
+      "label": "CreateMeetingRequest",
+      "depth": 3,
+      "summary": "CreateMeetingRequest defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/JoinMeetingRequest",
+      "label": "JoinMeetingRequest",
+      "depth": 3,
+      "summary": "JoinMeetingRequest defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/TranscriptLineRequest",
+      "label": "TranscriptLineRequest",
+      "depth": 3,
+      "summary": "TranscriptLineRequest defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/TranscriptLineResponse",
+      "label": "TranscriptLineResponse",
+      "depth": 3,
+      "summary": "TranscriptLineResponse defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/SummaryResponse",
+      "label": "SummaryResponse",
+      "depth": 3,
+      "summary": "SummaryResponse defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/MeetingListResponse",
+      "label": "MeetingListResponse",
+      "depth": 3,
+      "summary": "MeetingListResponse defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/MeetingResponse",
+      "label": "MeetingResponse",
+      "depth": 3,
+      "summary": "MeetingResponse defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/CreateMeetingResponse",
+      "label": "CreateMeetingResponse",
+      "depth": 3,
+      "summary": "CreateMeetingResponse defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/JoinTokenResponse",
+      "label": "JoinTokenResponse",
+      "depth": 3,
+      "summary": "JoinTokenResponse defined in meeting_schemas.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/auth_service.py",
+      "label": "auth_service.py",
+      "depth": 2,
+      "summary": "This file (auth_service.py) handles user authentication in the MeetSync project.",
+      "children": [
+        "meetsync/MeetSync/backend/api/services/auth_service.py/hash_password",
+        "meetsync/MeetSync/backend/api/services/auth_service.py/verify_password",
+        "meetsync/MeetSync/backend/api/services/auth_service.py/create_access_token",
+        "meetsync/MeetSync/backend/api/services/auth_service.py/decode_access_token"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/auth_service.py/hash_password",
+      "label": "hash_password",
+      "depth": 3,
+      "summary": "hash_password defined in auth_service.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/auth_service.py/verify_password",
+      "label": "verify_password",
+      "depth": 3,
+      "summary": "verify_password defined in auth_service.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/auth_service.py/create_access_token",
+      "label": "create_access_token",
+      "depth": 3,
+      "summary": "create_access_token defined in auth_service.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/auth_service.py/decode_access_token",
+      "label": "decode_access_token",
+      "depth": 3,
+      "summary": "decode_access_token defined in auth_service.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/livekit_service.py",
+      "label": "livekit_service.py",
+      "depth": 2,
+      "summary": "The `livekit_service.py` file generates LiveKit access tokens for the MeetSync project.",
+      "children": [
+        "meetsync/MeetSync/backend/api/services/livekit_service.py/_make_token",
+        "meetsync/MeetSync/backend/api/services/livekit_service.py/make_participant_token",
+        "meetsync/MeetSync/backend/api/services/livekit_service.py/make_host_token",
+        "meetsync/MeetSync/backend/api/services/livekit_service.py/make_agent_token"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/livekit_service.py/_make_token",
+      "label": "_make_token",
+      "depth": 3,
+      "summary": "_make_token defined in livekit_service.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/livekit_service.py/make_participant_token",
+      "label": "make_participant_token",
+      "depth": 3,
+      "summary": "make_participant_token defined in livekit_service.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/livekit_service.py/make_host_token",
+      "label": "make_host_token",
+      "depth": 3,
+      "summary": "make_host_token defined in livekit_service.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/livekit_service.py/make_agent_token",
+      "label": "make_agent_token",
+      "depth": 3,
+      "summary": "make_agent_token defined in livekit_service.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/services/summary_service.py",
+      "label": "summary_service.py",
+      "depth": 2,
+      "summary": "This script generates a meeting summary from a transcript using the ollama model in 'MeetSync'.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/tests/.gitkeep",
+      "label": ".gitkeep",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/tests/test_health.py",
+      "label": "test_health.py",
+      "depth": 2,
+      "summary": "This script tests the \"/health\" endpoint in the MeetSync project.",
+      "children": [
+        "meetsync/MeetSync/backend/api/tests/test_health.py/test_health_endpoint"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/backend/api/tests/test_health.py/test_health_endpoint",
+      "label": "test_health_endpoint",
+      "depth": 3,
+      "summary": "test_health_endpoint defined in test_health.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/docs",
+      "label": "docs",
+      "depth": 1,
+      "summary": "The docs folder contains project documentation for the MeetSync software development and maintenance process.",
+      "children": [
+        "meetsync/MeetSync/docs/design.md"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/docs/design.md",
+      "label": "design.md",
+      "depth": 2,
+      "summary": "This file is the MeetSync project's design document, outlining its goals and concepts.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend",
+      "label": "frontend",
+      "depth": 1,
+      "summary": "The \"frontend\" folder contains the client-side implementation for the MeetSync project's user interface.",
+      "children": [
+        "meetsync/MeetSync/frontend/.env.example",
+        "meetsync/MeetSync/frontend/next-env.d.ts",
+        "meetsync/MeetSync/frontend/next.config.ts",
+        "meetsync/MeetSync/frontend/package-lock.json",
+        "meetsync/MeetSync/frontend/package.json",
+        "meetsync/MeetSync/frontend/src/app/globals.css",
+        "meetsync/MeetSync/frontend/src/app/join/page.tsx",
+        "meetsync/MeetSync/frontend/src/app/layout.tsx",
+        "meetsync/MeetSync/frontend/src/app/meeting/page.tsx",
+        "meetsync/MeetSync/frontend/src/app/page.module.css",
+        "meetsync/MeetSync/frontend/src/app/page.tsx",
+        "meetsync/MeetSync/frontend/src/app/summary/[id]/page.module.css",
+        "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx",
+        "meetsync/MeetSync/frontend/src/components/AuthModal.module.css",
+        "meetsync/MeetSync/frontend/src/components/AuthModal.tsx",
+        "meetsync/MeetSync/frontend/src/components/ChatPanel.module.css",
+        "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx",
+        "meetsync/MeetSync/frontend/src/components/Room.module.css",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx",
+        "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.module.css",
+        "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx",
+        "meetsync/MeetSync/frontend/src/lib/api.ts",
+        "meetsync/MeetSync/frontend/src/lib/auth.tsx",
+        "meetsync/MeetSync/frontend/tsconfig.json",
+        "meetsync/MeetSync/frontend/tsconfig.tsbuildinfo"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/.env.example",
+      "label": ".env.example",
+      "depth": 2,
+      "summary": "This file provides initial configuration settings for the MeetSync project, such as API URLs.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/next-env.d.ts",
+      "label": "next-env.d.ts",
+      "depth": 2,
+      "summary": "The 'next-env.d.ts' file sets global types for the 'MeetSync' project in Next.js.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/next.config.ts",
+      "label": "next.config.ts",
+      "depth": 2,
+      "summary": "This file exports the MeetSync project's configuration to Next.js using environment variables.",
+      "children": [
+        "meetsync/MeetSync/frontend/next.config.ts/nextConfig"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/next.config.ts/nextConfig",
+      "label": "nextConfig",
+      "depth": 3,
+      "summary": "nextConfig defined in next.config.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/package-lock.json",
+      "label": "package-lock.json",
+      "depth": 2,
+      "summary": "The package-lock.json file is a dependency lock for the MeetSync project's frontend, ensuring reproducible package versions.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/package.json",
+      "label": "package.json",
+      "depth": 2,
+      "summary": "This file, `package.json`, defines the project configuration and dependencies for the MeetSync frontend application.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/globals.css",
+      "label": "globals.css",
+      "depth": 2,
+      "summary": "The globals.css file defines global styling for components in the MeetSync web application project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/join/page.tsx",
+      "label": "page.tsx",
+      "depth": 2,
+      "summary": "This file handles meeting joining functionality for the MeetSync project, displaying a meeting inner page.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/app/join/page.tsx/JoinInner",
+        "meetsync/MeetSync/frontend/src/app/join/page.tsx/router",
+        "meetsync/MeetSync/frontend/src/app/join/page.tsx/params",
+        "meetsync/MeetSync/frontend/src/app/join/page.tsx/meetingId",
+        "meetsync/MeetSync/frontend/src/app/join/page.tsx/name",
+        "meetsync/MeetSync/frontend/src/app/join/page.tsx/JoinPage"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/join/page.tsx/JoinInner",
+      "label": "JoinInner",
+      "depth": 3,
+      "summary": "JoinInner defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/join/page.tsx/router",
+      "label": "router",
+      "depth": 3,
+      "summary": "router defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/join/page.tsx/params",
+      "label": "params",
+      "depth": 3,
+      "summary": "params defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/join/page.tsx/meetingId",
+      "label": "meetingId",
+      "depth": 3,
+      "summary": "meetingId defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/join/page.tsx/name",
+      "label": "name",
+      "depth": 3,
+      "summary": "name defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/join/page.tsx/JoinPage",
+      "label": "JoinPage",
+      "depth": 3,
+      "summary": "JoinPage defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/layout.tsx",
+      "label": "layout.tsx",
+      "depth": 2,
+      "summary": "This file defines the base layout for the MeetSync project, integrating authentication.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/app/layout.tsx/metadata",
+        "meetsync/MeetSync/frontend/src/app/layout.tsx/RootLayout"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/layout.tsx/metadata",
+      "label": "metadata",
+      "depth": 3,
+      "summary": "metadata defined in layout.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/layout.tsx/RootLayout",
+      "label": "RootLayout",
+      "depth": 3,
+      "summary": "RootLayout defined in layout.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx",
+      "label": "page.tsx",
+      "depth": 2,
+      "summary": "This file renders a meeting page with a Room component within a suspended layout.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/MeetingInner",
+        "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/params",
+        "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/meetingId",
+        "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/token",
+        "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/MeetingPage"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/MeetingInner",
+      "label": "MeetingInner",
+      "depth": 3,
+      "summary": "MeetingInner defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/params",
+      "label": "params",
+      "depth": 3,
+      "summary": "params defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/meetingId",
+      "label": "meetingId",
+      "depth": 3,
+      "summary": "meetingId defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/token",
+      "label": "token",
+      "depth": 3,
+      "summary": "token defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/MeetingPage",
+      "label": "MeetingPage",
+      "depth": 3,
+      "summary": "MeetingPage defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/page.module.css",
+      "label": "page.module.css",
+      "depth": 2,
+      "summary": "This file styles the layout and visual appearance of pages in the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/page.tsx",
+      "label": "page.tsx",
+      "depth": 2,
+      "summary": "This file handles user authentication and meeting creation for the MeetSync project's homepage.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/app/page.tsx/Home",
+        "meetsync/MeetSync/frontend/src/app/page.tsx/router",
+        "meetsync/MeetSync/frontend/src/app/page.tsx/displayName",
+        "meetsync/MeetSync/frontend/src/app/page.tsx/handleCreate",
+        "meetsync/MeetSync/frontend/src/app/page.tsx/meeting",
+        "meetsync/MeetSync/frontend/src/app/page.tsx/handleJoin"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/page.tsx/Home",
+      "label": "Home",
+      "depth": 3,
+      "summary": "Home defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/page.tsx/router",
+      "label": "router",
+      "depth": 3,
+      "summary": "router defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/page.tsx/displayName",
+      "label": "displayName",
+      "depth": 3,
+      "summary": "displayName defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/page.tsx/handleCreate",
+      "label": "handleCreate",
+      "depth": 3,
+      "summary": "handleCreate defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/page.tsx/meeting",
+      "label": "meeting",
+      "depth": 3,
+      "summary": "meeting defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/page.tsx/handleJoin",
+      "label": "handleJoin",
+      "depth": 3,
+      "summary": "handleJoin defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.module.css",
+      "label": "page.module.css",
+      "depth": 2,
+      "summary": "This file defines CSS styles for the layouts and components of the MeetSync application's pages.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx",
+      "label": "page.tsx",
+      "depth": 2,
+      "summary": "This file fetches and displays meeting information using the MeetSync API.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/SummaryPage",
+        "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/router",
+        "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/load",
+        "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/data"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/SummaryPage",
+      "label": "SummaryPage",
+      "depth": 3,
+      "summary": "SummaryPage defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/router",
+      "label": "router",
+      "depth": 3,
+      "summary": "router defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/load",
+      "label": "load",
+      "depth": 3,
+      "summary": "load defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/data",
+      "label": "data",
+      "depth": 3,
+      "summary": "data defined in page.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/AuthModal.module.css",
+      "label": "AuthModal.module.css",
+      "depth": 2,
+      "summary": "This file defines CSS styles for the AuthModal component within the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx",
+      "label": "AuthModal.tsx",
+      "depth": 2,
+      "summary": "This file provides a React modal component for user authentication in the MeetSync project.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/AuthModal",
+        "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/handleSubmit",
+        "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/res"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/AuthModal",
+      "label": "AuthModal",
+      "depth": 3,
+      "summary": "AuthModal defined in AuthModal.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/handleSubmit",
+      "label": "handleSubmit",
+      "depth": 3,
+      "summary": "handleSubmit defined in AuthModal.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/res",
+      "label": "res",
+      "depth": 3,
+      "summary": "res defined in AuthModal.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/ChatPanel.module.css",
+      "label": "ChatPanel.module.css",
+      "depth": 2,
+      "summary": "This file defines CSS styles for the MeetSync project's ChatPanel component.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx",
+      "label": "ChatPanel.tsx",
+      "depth": 2,
+      "summary": "The ChatPanel component in MeetSync displays and manages a list of chat messages and allows sending new messages.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/ChatPanel",
+        "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/messagesEndRef",
+        "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/scrollToBottom",
+        "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/handleSend"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/ChatPanel",
+      "label": "ChatPanel",
+      "depth": 3,
+      "summary": "ChatPanel defined in ChatPanel.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/messagesEndRef",
+      "label": "messagesEndRef",
+      "depth": 3,
+      "summary": "messagesEndRef defined in ChatPanel.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/scrollToBottom",
+      "label": "scrollToBottom",
+      "depth": 3,
+      "summary": "scrollToBottom defined in ChatPanel.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/handleSend",
+      "label": "handleSend",
+      "depth": 3,
+      "summary": "handleSend defined in ChatPanel.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.module.css",
+      "label": "Room.module.css",
+      "depth": 2,
+      "summary": "This file styles CSS for the Room module within the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "label": "Room.tsx",
+      "depth": 2,
+      "summary": "The Room.tsx file handles meeting room functionality and component rendering in the MeetSync project.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/LIVEKIT_URL",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/RoomInner",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/data",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/data",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/ts",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/sender",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/msg",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/meetingId",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/Room",
+        "meetsync/MeetSync/frontend/src/components/Room.tsx/router"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/LIVEKIT_URL",
+      "label": "LIVEKIT_URL",
+      "depth": 3,
+      "summary": "LIVEKIT_URL defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/RoomInner",
+      "label": "RoomInner",
+      "depth": 3,
+      "summary": "RoomInner defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/data",
+      "label": "data",
+      "depth": 3,
+      "summary": "data defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/data",
+      "label": "data",
+      "depth": 3,
+      "summary": "data defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/ts",
+      "label": "ts",
+      "depth": 3,
+      "summary": "ts defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/sender",
+      "label": "sender",
+      "depth": 3,
+      "summary": "sender defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/msg",
+      "label": "msg",
+      "depth": 3,
+      "summary": "msg defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/meetingId",
+      "label": "meetingId",
+      "depth": 3,
+      "summary": "meetingId defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/Room",
+      "label": "Room",
+      "depth": 3,
+      "summary": "Room defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/Room.tsx/router",
+      "label": "router",
+      "depth": 3,
+      "summary": "router defined in Room.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.module.css",
+      "label": "TranscriptSidebar.module.css",
+      "depth": 2,
+      "summary": "This file defines CSS styles for the TranscriptSidebar component in the MeetSync project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx",
+      "label": "TranscriptSidebar.tsx",
+      "depth": 2,
+      "summary": "This file renders a transcript sidebar with scrolling to the bottom on new transcript data.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx/TranscriptSidebar",
+        "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx/bottomRef"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx/TranscriptSidebar",
+      "label": "TranscriptSidebar",
+      "depth": 3,
+      "summary": "TranscriptSidebar defined in TranscriptSidebar.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx/bottomRef",
+      "label": "bottomRef",
+      "depth": 3,
+      "summary": "bottomRef defined in TranscriptSidebar.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "label": "api.ts",
+      "depth": 2,
+      "summary": "This file defines the MeetSync API endpoints, utility interfaces, and functions for authentication.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/lib/api.ts/API_URL",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/register",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/res",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/login",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/res",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/googleAuth",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/res",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/createMeeting",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/res",
+        "meetsync/MeetSync/frontend/src/lib/api.ts/joinMeeting"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/API_URL",
+      "label": "API_URL",
+      "depth": 3,
+      "summary": "API_URL defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/register",
+      "label": "register",
+      "depth": 3,
+      "summary": "register defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/res",
+      "label": "res",
+      "depth": 3,
+      "summary": "res defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/login",
+      "label": "login",
+      "depth": 3,
+      "summary": "login defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/res",
+      "label": "res",
+      "depth": 3,
+      "summary": "res defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/googleAuth",
+      "label": "googleAuth",
+      "depth": 3,
+      "summary": "googleAuth defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/res",
+      "label": "res",
+      "depth": 3,
+      "summary": "res defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/createMeeting",
+      "label": "createMeeting",
+      "depth": 3,
+      "summary": "createMeeting defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/res",
+      "label": "res",
+      "depth": 3,
+      "summary": "res defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/api.ts/joinMeeting",
+      "label": "joinMeeting",
+      "depth": 3,
+      "summary": "joinMeeting defined in api.ts",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/auth.tsx",
+      "label": "auth.tsx",
+      "depth": 2,
+      "summary": "This file sets up and exports an authentication context for the MeetSync application.",
+      "children": [
+        "meetsync/MeetSync/frontend/src/lib/auth.tsx/AuthContext",
+        "meetsync/MeetSync/frontend/src/lib/auth.tsx/AuthProvider",
+        "meetsync/MeetSync/frontend/src/lib/auth.tsx/stored",
+        "meetsync/MeetSync/frontend/src/lib/auth.tsx/signIn",
+        "meetsync/MeetSync/frontend/src/lib/auth.tsx/signOut",
+        "meetsync/MeetSync/frontend/src/lib/auth.tsx/useAuth"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/auth.tsx/AuthContext",
+      "label": "AuthContext",
+      "depth": 3,
+      "summary": "AuthContext defined in auth.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/auth.tsx/AuthProvider",
+      "label": "AuthProvider",
+      "depth": 3,
+      "summary": "AuthProvider defined in auth.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/auth.tsx/stored",
+      "label": "stored",
+      "depth": 3,
+      "summary": "stored defined in auth.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/auth.tsx/signIn",
+      "label": "signIn",
+      "depth": 3,
+      "summary": "signIn defined in auth.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/auth.tsx/signOut",
+      "label": "signOut",
+      "depth": 3,
+      "summary": "signOut defined in auth.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/src/lib/auth.tsx/useAuth",
+      "label": "useAuth",
+      "depth": 3,
+      "summary": "useAuth defined in auth.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/tsconfig.json",
+      "label": "tsconfig.json",
+      "depth": 2,
+      "summary": "This file configures the MeetSync project's TypeScript compiler settings for an ES2017 target.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "meetsync/MeetSync/frontend/tsconfig.tsbuildinfo",
+      "label": "tsconfig.tsbuildinfo",
+      "depth": 2,
+      "summary": "This file contains dependencies required by the TypeScript compiler for the MeetSync project.",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "meetsync",
+      "target": "meetsync/MeetSync/backend"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/__init__.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/agent/.env.example"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/agent/Dockerfile"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/agent/meeting_notetaker.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/agent/meeting_notetaker.py",
+      "target": "meetsync/MeetSync/backend/agent/meeting_notetaker.py/_headers"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/agent/requirements.txt"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.env"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.pytest_cache/.gitignore"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.pytest_cache/CACHEDIR.TAG"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.pytest_cache/README.md"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.pytest_cache/v/cache/lastfailed"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.pytest_cache/v/cache/nodeids"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.ruff_cache/.gitignore"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/17114792940327630187"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/17671014081491996627"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/5677065686091399800"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/5879512717951758338"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.ruff_cache/0.15.8/6027571958799371966"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/.ruff_cache/CACHEDIR.TAG"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/Dockerfile"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/__init__.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/alembic/env.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/alembic/env.py",
+      "target": "meetsync/MeetSync/backend/api/alembic/env.py/get_url"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/alembic/env.py",
+      "target": "meetsync/MeetSync/backend/api/alembic/env.py/run_migrations_offline"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/alembic/env.py",
+      "target": "meetsync/MeetSync/backend/api/alembic/env.py/run_migrations_online"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/alembic/script.py.mako"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/alembic.ini"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/config.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/config.py",
+      "target": "meetsync/MeetSync/backend/api/config.py/Settings"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/database.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/database.py",
+      "target": "meetsync/MeetSync/backend/api/database.py/Base"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/dependencies/auth.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/endpoints/auth_endpoints.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/endpoints/health_endpoints.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/endpoints/meeting_endpoints.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/main.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/models/__init__.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/models/meeting_models.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/models/meeting_models.py",
+      "target": "meetsync/MeetSync/backend/api/models/meeting_models.py/Meeting"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/models/meeting_models.py",
+      "target": "meetsync/MeetSync/backend/api/models/meeting_models.py/MeetingTranscript"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/models/meeting_models.py",
+      "target": "meetsync/MeetSync/backend/api/models/meeting_models.py/MeetingSummary"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/models/user_models.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/models/user_models.py",
+      "target": "meetsync/MeetSync/backend/api/models/user_models.py/User"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/requirements.agent.txt"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/requirements.txt"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/RegisterRequest"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/LoginRequest"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/GoogleAuthRequest"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/TokenResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/auth_schemas.py/UserResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/schemas/health_schemas.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/health_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/health_schemas.py/HealthResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/CreateMeetingRequest"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/JoinMeetingRequest"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/TranscriptLineRequest"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/TranscriptLineResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/SummaryResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/MeetingListResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/MeetingResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/CreateMeetingResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py",
+      "target": "meetsync/MeetSync/backend/api/schemas/meeting_schemas.py/JoinTokenResponse"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/services/auth_service.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/services/auth_service.py",
+      "target": "meetsync/MeetSync/backend/api/services/auth_service.py/hash_password"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/services/auth_service.py",
+      "target": "meetsync/MeetSync/backend/api/services/auth_service.py/verify_password"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/services/auth_service.py",
+      "target": "meetsync/MeetSync/backend/api/services/auth_service.py/create_access_token"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/services/auth_service.py",
+      "target": "meetsync/MeetSync/backend/api/services/auth_service.py/decode_access_token"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/services/livekit_service.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/services/livekit_service.py",
+      "target": "meetsync/MeetSync/backend/api/services/livekit_service.py/_make_token"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/services/livekit_service.py",
+      "target": "meetsync/MeetSync/backend/api/services/livekit_service.py/make_participant_token"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/services/livekit_service.py",
+      "target": "meetsync/MeetSync/backend/api/services/livekit_service.py/make_host_token"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/services/livekit_service.py",
+      "target": "meetsync/MeetSync/backend/api/services/livekit_service.py/make_agent_token"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/services/summary_service.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/tests/.gitkeep"
+    },
+    {
+      "source": "meetsync/MeetSync/backend",
+      "target": "meetsync/MeetSync/backend/api/tests/test_health.py"
+    },
+    {
+      "source": "meetsync/MeetSync/backend/api/tests/test_health.py",
+      "target": "meetsync/MeetSync/backend/api/tests/test_health.py/test_health_endpoint"
+    },
+    {
+      "source": "meetsync",
+      "target": "meetsync/MeetSync/docs"
+    },
+    {
+      "source": "meetsync/MeetSync/docs",
+      "target": "meetsync/MeetSync/docs/design.md"
+    },
+    {
+      "source": "meetsync",
+      "target": "meetsync/MeetSync/frontend"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/.env.example"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/next-env.d.ts"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/next.config.ts"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/next.config.ts",
+      "target": "meetsync/MeetSync/frontend/next.config.ts/nextConfig"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/package-lock.json"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/package.json"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/app/globals.css"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/app/join/page.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/join/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/join/page.tsx/JoinInner"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/join/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/join/page.tsx/router"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/join/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/join/page.tsx/params"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/join/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/join/page.tsx/meetingId"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/join/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/join/page.tsx/name"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/join/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/join/page.tsx/JoinPage"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/app/layout.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/layout.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/layout.tsx/metadata"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/layout.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/layout.tsx/RootLayout"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/MeetingInner"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/params"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/meetingId"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/token"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/meeting/page.tsx/MeetingPage"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/app/page.module.css"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/app/page.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/page.tsx/Home"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/page.tsx/router"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/page.tsx/displayName"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/page.tsx/handleCreate"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/page.tsx/meeting"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/page.tsx/handleJoin"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.module.css"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/SummaryPage"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/router"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/load"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx",
+      "target": "meetsync/MeetSync/frontend/src/app/summary/[id]/page.tsx/data"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/components/AuthModal.module.css"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/AuthModal"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/handleSubmit"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/AuthModal.tsx/res"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/components/ChatPanel.module.css"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/ChatPanel"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/messagesEndRef"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/scrollToBottom"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/ChatPanel.tsx/handleSend"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.module.css"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/LIVEKIT_URL"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/RoomInner"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/data"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/data"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/ts"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/sender"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/msg"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/meetingId"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/Room"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/Room.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/Room.tsx/router"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.module.css"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx/TranscriptSidebar"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx",
+      "target": "meetsync/MeetSync/frontend/src/components/TranscriptSidebar.tsx/bottomRef"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/API_URL"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/register"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/res"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/login"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/res"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/googleAuth"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/res"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/createMeeting"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/res"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/api.ts",
+      "target": "meetsync/MeetSync/frontend/src/lib/api.ts/joinMeeting"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/src/lib/auth.tsx"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/auth.tsx",
+      "target": "meetsync/MeetSync/frontend/src/lib/auth.tsx/AuthContext"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/auth.tsx",
+      "target": "meetsync/MeetSync/frontend/src/lib/auth.tsx/AuthProvider"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/auth.tsx",
+      "target": "meetsync/MeetSync/frontend/src/lib/auth.tsx/stored"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/auth.tsx",
+      "target": "meetsync/MeetSync/frontend/src/lib/auth.tsx/signIn"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/auth.tsx",
+      "target": "meetsync/MeetSync/frontend/src/lib/auth.tsx/signOut"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend/src/lib/auth.tsx",
+      "target": "meetsync/MeetSync/frontend/src/lib/auth.tsx/useAuth"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/tsconfig.json"
+    },
+    {
+      "source": "meetsync/MeetSync/frontend",
+      "target": "meetsync/MeetSync/frontend/tsconfig.tsbuildinfo"
+    }
+  ]
+}

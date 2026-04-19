@@ -1,0 +1,3576 @@
+{
+  "project": "ai-dev-team",
+  "slug": "ai-dev-team",
+  "description": "Generates content previews from project descriptions to improve project visibility in the AI development team.",
+  "nodes": [
+    {
+      "id": "ai-dev-team",
+      "label": "ai-dev-team",
+      "depth": 0,
+      "summary": "Generates content previews from project descriptions to improve project visibility in the AI development team.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team",
+        "ai-dev-team/ai-dev-team/docs",
+        "ai-dev-team/ai-dev-team/tests"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team",
+      "label": "ai_team",
+      "depth": 1,
+      "summary": "This folder contains the source code for the team's artificial intelligence development project infrastructure.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/__init__.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/__init__.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/architect.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/auditor.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/coder.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/debugger.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/designer.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/docs.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/memory.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/planner.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/requirements.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/reviewer.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/security.py",
+        "ai-dev-team/ai-dev-team/ai_team/agents/tester.py",
+        "ai-dev-team/ai-dev-team/ai_team/bus.py",
+        "ai-dev-team/ai-dev-team/ai_team/config.py",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py",
+        "ai-dev-team/ai-dev-team/ai_team/observability.py",
+        "ai-dev-team/ai-dev-team/ai_team/otel.py",
+        "ai-dev-team/ai-dev-team/ai_team/rag/__init__.py",
+        "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py",
+        "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py",
+        "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+        "ai-dev-team/ai-dev-team/ai_team/state.py",
+        "ai-dev-team/ai-dev-team/ai_team/tools/__init__.py",
+        "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+        "ai-dev-team/ai-dev-team/ai_team/web/__init__.py",
+        "ai-dev-team/ai-dev-team/ai_team/web/a2a_cards.py",
+        "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+        "ai-dev-team/ai-dev-team/ai_team/web/app.py"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/architect.py",
+      "label": "architect.py",
+      "depth": 2,
+      "summary": "The architect.py file designs system architecture and DB schemas for the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/architect.py/architect_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/architect.py/architect_agent",
+      "label": "architect_agent",
+      "depth": 3,
+      "summary": "architect_agent defined in architect.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/auditor.py",
+      "label": "auditor.py",
+      "depth": 2,
+      "summary": "The auditor.py file audits code quality and architecture in the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/auditor.py/auditor_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/auditor.py/auditor_agent",
+      "label": "auditor_agent",
+      "depth": 3,
+      "summary": "auditor_agent defined in auditor.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py",
+      "label": "codebase_indexer.py",
+      "depth": 2,
+      "summary": "The codebase_indexer.py file indexes classes, functions, endpoints, and models across various file extensions in the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/build_codebase_index",
+        "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_walk_files",
+        "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_python",
+        "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_javascript",
+        "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_go"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/build_codebase_index",
+      "label": "build_codebase_index",
+      "depth": 3,
+      "summary": "build_codebase_index defined in codebase_indexer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_walk_files",
+      "label": "_walk_files",
+      "depth": 3,
+      "summary": "_walk_files defined in codebase_indexer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_python",
+      "label": "_index_python",
+      "depth": 3,
+      "summary": "_index_python defined in codebase_indexer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_javascript",
+      "label": "_index_javascript",
+      "depth": 3,
+      "summary": "_index_javascript defined in codebase_indexer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_go",
+      "label": "_index_go",
+      "depth": 3,
+      "summary": "_index_go defined in codebase_indexer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/coder.py",
+      "label": "coder.py",
+      "depth": 2,
+      "summary": "This coder.py file writes production-ready code based on provided architecture specs and project patterns.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/coder.py/coder_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/coder.py/coder_agent",
+      "label": "coder_agent",
+      "depth": 3,
+      "summary": "coder_agent defined in coder.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/debugger.py",
+      "label": "debugger.py",
+      "depth": 2,
+      "summary": "This script serves as the Debugger agent in the 'ai-dev-team' project, analyzing failures for debugging reports.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/debugger.py/debugger_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/debugger.py/debugger_agent",
+      "label": "debugger_agent",
+      "depth": 3,
+      "summary": "debugger_agent defined in debugger.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/designer.py",
+      "label": "designer.py",
+      "depth": 2,
+      "summary": "This script generates UI component code for the ai-dev-team project based on design requirements.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/designer.py/designer_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/designer.py/designer_agent",
+      "label": "designer_agent",
+      "depth": 3,
+      "summary": "designer_agent defined in designer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/docs.py",
+      "label": "docs.py",
+      "depth": 2,
+      "summary": "This file updates docstrings and README sections for changed files in the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/docs.py/docs_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/docs.py/docs_agent",
+      "label": "docs_agent",
+      "depth": 3,
+      "summary": "docs_agent defined in docs.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py",
+      "label": "evaluator.py",
+      "depth": 2,
+      "summary": "This script defines an Evaluator Agent for the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py/evaluator_agent",
+        "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py/_format_findings"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py/evaluator_agent",
+      "label": "evaluator_agent",
+      "depth": 3,
+      "summary": "evaluator_agent defined in evaluator.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py/_format_findings",
+      "label": "_format_findings",
+      "depth": 3,
+      "summary": "_format_findings defined in evaluator.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py",
+      "label": "frontend_desktop.py",
+      "depth": 2,
+      "summary": "This file defines a Tauri 2.x based frontend agent for the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py/_format_work_items",
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py/frontend_desktop_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py/_format_work_items",
+      "label": "_format_work_items",
+      "depth": 3,
+      "summary": "_format_work_items defined in frontend_desktop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py/frontend_desktop_agent",
+      "label": "frontend_desktop_agent",
+      "depth": 3,
+      "summary": "frontend_desktop_agent defined in frontend_desktop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py",
+      "label": "frontend_mobile.py",
+      "depth": 2,
+      "summary": "The frontend_mobile.py file defines an AI agent for generating Android Kotlin and Jetpack Compose code.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py/_format_work_items",
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py/frontend_mobile_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py/_format_work_items",
+      "label": "_format_work_items",
+      "depth": 3,
+      "summary": "_format_work_items defined in frontend_mobile.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py/frontend_mobile_agent",
+      "label": "frontend_mobile_agent",
+      "depth": 3,
+      "summary": "frontend_mobile_agent defined in frontend_mobile.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py",
+      "label": "frontend_web.py",
+      "depth": 2,
+      "summary": "This file configures the Frontend Web Agent within the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py/_format_work_items",
+        "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py/frontend_web_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py/_format_work_items",
+      "label": "_format_work_items",
+      "depth": 3,
+      "summary": "_format_work_items defined in frontend_web.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py/frontend_web_agent",
+      "label": "frontend_web_agent",
+      "depth": 3,
+      "summary": "frontend_web_agent defined in frontend_web.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py",
+      "label": "import_healer.py",
+      "depth": 2,
+      "summary": "This file provides a self-healing import node for the ai-dev-team project to auto-install missing packages.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py/_extract_missing_packages",
+        "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py/import_healer_node"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py/_extract_missing_packages",
+      "label": "_extract_missing_packages",
+      "depth": 3,
+      "summary": "_extract_missing_packages defined in import_healer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py/import_healer_node",
+      "label": "import_healer_node",
+      "depth": 3,
+      "summary": "import_healer_node defined in import_healer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py",
+      "label": "memory.py",
+      "depth": 2,
+      "summary": "This script persists lessons learned between runs for the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/_ensure_dir",
+        "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/_memory_file",
+        "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/load_lessons",
+        "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/save_lesson",
+        "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/format_lessons_for_prompt",
+        "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/extract_lessons_from_evaluation"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/_ensure_dir",
+      "label": "_ensure_dir",
+      "depth": 3,
+      "summary": "_ensure_dir defined in memory.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/_memory_file",
+      "label": "_memory_file",
+      "depth": 3,
+      "summary": "_memory_file defined in memory.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/load_lessons",
+      "label": "load_lessons",
+      "depth": 3,
+      "summary": "load_lessons defined in memory.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/save_lesson",
+      "label": "save_lesson",
+      "depth": 3,
+      "summary": "save_lesson defined in memory.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/format_lessons_for_prompt",
+      "label": "format_lessons_for_prompt",
+      "depth": 3,
+      "summary": "format_lessons_for_prompt defined in memory.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/extract_lessons_from_evaluation",
+      "label": "extract_lessons_from_evaluation",
+      "depth": 3,
+      "summary": "extract_lessons_from_evaluation defined in memory.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/planner.py",
+      "label": "planner.py",
+      "depth": 2,
+      "summary": "The planner.py file breaks a task into structured WorkItems for the coder agent in the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/planner.py/planner_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/planner.py/planner_agent",
+      "label": "planner_agent",
+      "depth": 3,
+      "summary": "planner_agent defined in planner.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py",
+      "label": "project_detector.py",
+      "depth": 2,
+      "summary": "Autodetects project patterns in a given directory, replacing hardcoded assumptions about its structure.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/detect_project_context",
+        "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/detect_frontend_target",
+        "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/_find_file"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/detect_project_context",
+      "label": "detect_project_context",
+      "depth": 3,
+      "summary": "detect_project_context defined in project_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/detect_frontend_target",
+      "label": "detect_frontend_target",
+      "depth": 3,
+      "summary": "detect_frontend_target defined in project_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/_find_file",
+      "label": "_find_file",
+      "depth": 3,
+      "summary": "_find_file defined in project_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "label": "react_loop.py",
+      "depth": 2,
+      "summary": "The react_loop.py file implements a shared ReAct loop for the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/TokenUsage",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/get_token_usage",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/reset_token_usage",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/invoke_llm_with_retry",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/execute_tool_call",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/set_progress_callback",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/_emit_progress",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/ReactResult",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/react_loop",
+        "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/parse_findings"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/TokenUsage",
+      "label": "TokenUsage",
+      "depth": 3,
+      "summary": "TokenUsage defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/get_token_usage",
+      "label": "get_token_usage",
+      "depth": 3,
+      "summary": "get_token_usage defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/reset_token_usage",
+      "label": "reset_token_usage",
+      "depth": 3,
+      "summary": "reset_token_usage defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/invoke_llm_with_retry",
+      "label": "invoke_llm_with_retry",
+      "depth": 3,
+      "summary": "invoke_llm_with_retry defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/execute_tool_call",
+      "label": "execute_tool_call",
+      "depth": 3,
+      "summary": "execute_tool_call defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/set_progress_callback",
+      "label": "set_progress_callback",
+      "depth": 3,
+      "summary": "set_progress_callback defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/_emit_progress",
+      "label": "_emit_progress",
+      "depth": 3,
+      "summary": "_emit_progress defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/ReactResult",
+      "label": "ReactResult",
+      "depth": 3,
+      "summary": "ReactResult defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/react_loop",
+      "label": "react_loop",
+      "depth": 3,
+      "summary": "react_loop defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/parse_findings",
+      "label": "parse_findings",
+      "depth": 3,
+      "summary": "parse_findings defined in react_loop.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/requirements.py",
+      "label": "requirements.py",
+      "depth": 2,
+      "summary": "This file defines the Requirements Agent for the 'ai-dev-team' project in Python.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/requirements.py/requirements_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/requirements.py/requirements_agent",
+      "label": "requirements_agent",
+      "depth": 3,
+      "summary": "requirements_agent defined in requirements.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/reviewer.py",
+      "label": "reviewer.py",
+      "depth": 2,
+      "summary": "The reviewer.py file automates senior tech lead code reviews for correctness.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/reviewer.py/reviewer_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/reviewer.py/reviewer_agent",
+      "label": "reviewer_agent",
+      "depth": 3,
+      "summary": "reviewer_agent defined in reviewer.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/security.py",
+      "label": "security.py",
+      "depth": 2,
+      "summary": "This file (security.py) provides a security audit agent for the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/security.py/security_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/security.py/security_agent",
+      "label": "security_agent",
+      "depth": 3,
+      "summary": "security_agent defined in security.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/tester.py",
+      "label": "tester.py",
+      "depth": 2,
+      "summary": "The tester.py file defines a QA Agent for the 'ai-dev-team' project, handling testing tasks.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/agents/tester.py/tester_agent"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/agents/tester.py/tester_agent",
+      "label": "tester_agent",
+      "depth": 3,
+      "summary": "tester_agent defined in tester.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/bus.py",
+      "label": "bus.py",
+      "depth": 2,
+      "summary": "The bus.py file provides an in-process pub/sub chat bus with SQLite persistence for the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/bus.py/AgentBus"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/bus.py/AgentBus",
+      "label": "AgentBus",
+      "depth": 3,
+      "summary": "AgentBus defined in bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/config.py",
+      "label": "config.py",
+      "depth": 2,
+      "summary": "Configs and retrieves OpenRouter API keys for key rotation in the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/config.py/_openrouter_keys",
+        "ai-dev-team/ai-dev-team/ai_team/config.py/_next_openrouter_key",
+        "ai-dev-team/ai-dev-team/ai_team/config.py/_detect_provider",
+        "ai-dev-team/ai-dev-team/ai_team/config.py/get_llm",
+        "ai-dev-team/ai-dev-team/ai_team/config.py/get_llm_for_agent",
+        "ai-dev-team/ai-dev-team/ai_team/config.py/get_project_dir",
+        "ai-dev-team/ai-dev-team/ai_team/config.py/get_max_iterations"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/config.py/_openrouter_keys",
+      "label": "_openrouter_keys",
+      "depth": 3,
+      "summary": "_openrouter_keys defined in config.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/config.py/_next_openrouter_key",
+      "label": "_next_openrouter_key",
+      "depth": 3,
+      "summary": "_next_openrouter_key defined in config.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/config.py/_detect_provider",
+      "label": "_detect_provider",
+      "depth": 3,
+      "summary": "_detect_provider defined in config.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/config.py/get_llm",
+      "label": "get_llm",
+      "depth": 3,
+      "summary": "get_llm defined in config.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/config.py/get_llm_for_agent",
+      "label": "get_llm_for_agent",
+      "depth": 3,
+      "summary": "get_llm_for_agent defined in config.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/config.py/get_project_dir",
+      "label": "get_project_dir",
+      "depth": 3,
+      "summary": "get_project_dir defined in config.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/config.py/get_max_iterations",
+      "label": "get_max_iterations",
+      "depth": 3,
+      "summary": "get_max_iterations defined in config.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "label": "graph.py",
+      "depth": 2,
+      "summary": "The graph.py file orchestrates all agents in the ai-dev-team project's LangGraph pipeline.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/init_node",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/preflight_node",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_requirements",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_design",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_architecture",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/frontend_router_node",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/route_to_coder",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/_check_intervention",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/fan_out_verification",
+        "ai-dev-team/ai-dev-team/ai_team/graph.py/git_commit_node"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/init_node",
+      "label": "init_node",
+      "depth": 3,
+      "summary": "init_node defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/preflight_node",
+      "label": "preflight_node",
+      "depth": 3,
+      "summary": "preflight_node defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_requirements",
+      "label": "route_after_requirements",
+      "depth": 3,
+      "summary": "route_after_requirements defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_design",
+      "label": "route_after_design",
+      "depth": 3,
+      "summary": "route_after_design defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_architecture",
+      "label": "route_after_architecture",
+      "depth": 3,
+      "summary": "route_after_architecture defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/frontend_router_node",
+      "label": "frontend_router_node",
+      "depth": 3,
+      "summary": "frontend_router_node defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/route_to_coder",
+      "label": "route_to_coder",
+      "depth": 3,
+      "summary": "route_to_coder defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/_check_intervention",
+      "label": "_check_intervention",
+      "depth": 3,
+      "summary": "_check_intervention defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/fan_out_verification",
+      "label": "fan_out_verification",
+      "depth": 3,
+      "summary": "fan_out_verification defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/graph.py/git_commit_node",
+      "label": "git_commit_node",
+      "depth": 3,
+      "summary": "git_commit_node defined in graph.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/observability.py",
+      "label": "observability.py",
+      "depth": 2,
+      "summary": "This script enables Langfuse v4 observability and cost tracking for AI-dev-team LLM calls.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/observability.py/_get_client",
+        "ai-dev-team/ai-dev-team/ai_team/observability.py/_Noop",
+        "ai-dev-team/ai-dev-team/ai_team/observability.py/trace_agent",
+        "ai-dev-team/ai-dev-team/ai_team/observability.py/log_llm_call",
+        "ai-dev-team/ai-dev-team/ai_team/observability.py/score_pipeline",
+        "ai-dev-team/ai-dev-team/ai_team/observability.py/flush"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/observability.py/_get_client",
+      "label": "_get_client",
+      "depth": 3,
+      "summary": "_get_client defined in observability.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/observability.py/_Noop",
+      "label": "_Noop",
+      "depth": 3,
+      "summary": "_Noop defined in observability.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/observability.py/trace_agent",
+      "label": "trace_agent",
+      "depth": 3,
+      "summary": "trace_agent defined in observability.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/observability.py/log_llm_call",
+      "label": "log_llm_call",
+      "depth": 3,
+      "summary": "log_llm_call defined in observability.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/observability.py/score_pipeline",
+      "label": "score_pipeline",
+      "depth": 3,
+      "summary": "score_pipeline defined in observability.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/observability.py/flush",
+      "label": "flush",
+      "depth": 3,
+      "summary": "flush defined in observability.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/otel.py",
+      "label": "otel.py",
+      "depth": 2,
+      "summary": "This file auto-instruments HTTP calls and exports traces to the console in the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/otel.py/setup_otel",
+        "ai-dev-team/ai-dev-team/ai_team/otel.py/get_tracer"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/otel.py/setup_otel",
+      "label": "setup_otel",
+      "depth": 3,
+      "summary": "setup_otel defined in otel.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/otel.py/get_tracer",
+      "label": "get_tracer",
+      "depth": 3,
+      "summary": "get_tracer defined in otel.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py",
+      "label": "chunker.py",
+      "depth": 2,
+      "summary": "This file splits source files into semantic chunks for embedding within the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/CodeChunk",
+        "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/_walk_files",
+        "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/_split_python_by_symbol",
+        "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/chunk_file",
+        "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/chunk_project"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/CodeChunk",
+      "label": "CodeChunk",
+      "depth": 3,
+      "summary": "CodeChunk defined in chunker.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/_walk_files",
+      "label": "_walk_files",
+      "depth": 3,
+      "summary": "_walk_files defined in chunker.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/_split_python_by_symbol",
+      "label": "_split_python_by_symbol",
+      "depth": 3,
+      "summary": "_split_python_by_symbol defined in chunker.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/chunk_file",
+      "label": "chunk_file",
+      "depth": 3,
+      "summary": "chunk_file defined in chunker.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/chunk_project",
+      "label": "chunk_project",
+      "depth": 3,
+      "summary": "chunk_project defined in chunker.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py",
+      "label": "hybrid_search.py",
+      "depth": 2,
+      "summary": "This file implements a hybrid search combining BM25 keyword search and semantic vector search via Reciprocal Rank Fusion (RRF) in ai-dev-team.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_tokenize",
+        "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_bm25_search",
+        "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_semantic_search",
+        "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_rrf_fuse",
+        "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/hybrid_search"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_tokenize",
+      "label": "_tokenize",
+      "depth": 3,
+      "summary": "_tokenize defined in hybrid_search.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_bm25_search",
+      "label": "_bm25_search",
+      "depth": 3,
+      "summary": "_bm25_search defined in hybrid_search.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_semantic_search",
+      "label": "_semantic_search",
+      "depth": 3,
+      "summary": "_semantic_search defined in hybrid_search.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_rrf_fuse",
+      "label": "_rrf_fuse",
+      "depth": 3,
+      "summary": "_rrf_fuse defined in hybrid_search.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/hybrid_search",
+      "label": "hybrid_search",
+      "depth": 3,
+      "summary": "hybrid_search defined in hybrid_search.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py",
+      "label": "lessons_rag.py",
+      "depth": 2,
+      "summary": "This file (\"lessons_rag.py\") embeds saved lessons for semantic retrieval.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/_lessons_paths",
+        "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/_lessons_hash",
+        "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/index_lessons",
+        "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/retrieve_relevant_lessons",
+        "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/format_relevant_lessons"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/_lessons_paths",
+      "label": "_lessons_paths",
+      "depth": 3,
+      "summary": "_lessons_paths defined in lessons_rag.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/_lessons_hash",
+      "label": "_lessons_hash",
+      "depth": 3,
+      "summary": "_lessons_hash defined in lessons_rag.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/index_lessons",
+      "label": "index_lessons",
+      "depth": 3,
+      "summary": "index_lessons defined in lessons_rag.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/retrieve_relevant_lessons",
+      "label": "retrieve_relevant_lessons",
+      "depth": 3,
+      "summary": "retrieve_relevant_lessons defined in lessons_rag.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/format_relevant_lessons",
+      "label": "format_relevant_lessons",
+      "depth": 3,
+      "summary": "format_relevant_lessons defined in lessons_rag.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "label": "store.py",
+      "depth": 2,
+      "summary": "This file stores code chunks from projects with metadata and diff-aware vector embeddings.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_project_slug",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_store_paths",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_get_embedder",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_embed_texts",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_read_mtimes",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_current_mtimes",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_changed_files",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/build_index",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/search",
+        "ai-dev-team/ai-dev-team/ai_team/rag/store.py/index_exists"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_project_slug",
+      "label": "_project_slug",
+      "depth": 3,
+      "summary": "_project_slug defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_store_paths",
+      "label": "_store_paths",
+      "depth": 3,
+      "summary": "_store_paths defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_get_embedder",
+      "label": "_get_embedder",
+      "depth": 3,
+      "summary": "_get_embedder defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_embed_texts",
+      "label": "_embed_texts",
+      "depth": 3,
+      "summary": "_embed_texts defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_read_mtimes",
+      "label": "_read_mtimes",
+      "depth": 3,
+      "summary": "_read_mtimes defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_current_mtimes",
+      "label": "_current_mtimes",
+      "depth": 3,
+      "summary": "_current_mtimes defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_changed_files",
+      "label": "_changed_files",
+      "depth": 3,
+      "summary": "_changed_files defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/build_index",
+      "label": "build_index",
+      "depth": 3,
+      "summary": "build_index defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/search",
+      "label": "search",
+      "depth": 3,
+      "summary": "search defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/index_exists",
+      "label": "index_exists",
+      "depth": 3,
+      "summary": "index_exists defined in store.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/state.py",
+      "label": "state.py",
+      "depth": 2,
+      "summary": "This file defines the schema for the AI Dev Team graph's state in the project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/state.py/AgentFinding",
+        "ai-dev-team/ai-dev-team/ai_team/state.py/AgentMessage",
+        "ai-dev-team/ai-dev-team/ai_team/state.py/WorkItem",
+        "ai-dev-team/ai-dev-team/ai_team/state.py/_keep_recent_messages",
+        "ai-dev-team/ai-dev-team/ai_team/state.py/_replace_work_items",
+        "ai-dev-team/ai-dev-team/ai_team/state.py/State"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/state.py/AgentFinding",
+      "label": "AgentFinding",
+      "depth": 3,
+      "summary": "AgentFinding defined in state.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/state.py/AgentMessage",
+      "label": "AgentMessage",
+      "depth": 3,
+      "summary": "AgentMessage defined in state.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/state.py/WorkItem",
+      "label": "WorkItem",
+      "depth": 3,
+      "summary": "WorkItem defined in state.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/state.py/_keep_recent_messages",
+      "label": "_keep_recent_messages",
+      "depth": 3,
+      "summary": "_keep_recent_messages defined in state.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/state.py/_replace_work_items",
+      "label": "_replace_work_items",
+      "depth": 3,
+      "summary": "_replace_work_items defined in state.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/state.py/State",
+      "label": "State",
+      "depth": 3,
+      "summary": "State defined in state.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py",
+      "label": "rag_tools.py",
+      "depth": 2,
+      "summary": "The `rag_tools.py` file provides project-specific RAG tools for the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/set_rag_project",
+        "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/search_codebase",
+        "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/reindex_codebase",
+        "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/rag_index_status"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/set_rag_project",
+      "label": "set_rag_project",
+      "depth": 3,
+      "summary": "set_rag_project defined in rag_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/search_codebase",
+      "label": "search_codebase",
+      "depth": 3,
+      "summary": "search_codebase defined in rag_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/reindex_codebase",
+      "label": "reindex_codebase",
+      "depth": 3,
+      "summary": "reindex_codebase defined in rag_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/rag_index_status",
+      "label": "rag_index_status",
+      "depth": 3,
+      "summary": "rag_index_status defined in rag_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "label": "shell_tools.py",
+      "depth": 2,
+      "summary": "This file provides tools for agents to interact with the filesystem and shell in the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/set_project_sandbox",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_validate_path",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_scrub_secrets",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_validate_command",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/read_file",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/write_file",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/edit_file",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/list_directory",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/search_files",
+        "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/run_command"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/set_project_sandbox",
+      "label": "set_project_sandbox",
+      "depth": 3,
+      "summary": "set_project_sandbox defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_validate_path",
+      "label": "_validate_path",
+      "depth": 3,
+      "summary": "_validate_path defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_scrub_secrets",
+      "label": "_scrub_secrets",
+      "depth": 3,
+      "summary": "_scrub_secrets defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_validate_command",
+      "label": "_validate_command",
+      "depth": 3,
+      "summary": "_validate_command defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/read_file",
+      "label": "read_file",
+      "depth": 3,
+      "summary": "read_file defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/write_file",
+      "label": "write_file",
+      "depth": 3,
+      "summary": "write_file defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/edit_file",
+      "label": "edit_file",
+      "depth": 3,
+      "summary": "edit_file defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/list_directory",
+      "label": "list_directory",
+      "depth": 3,
+      "summary": "list_directory defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/search_files",
+      "label": "search_files",
+      "depth": 3,
+      "summary": "search_files defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/run_command",
+      "label": "run_command",
+      "depth": 3,
+      "summary": "run_command defined in shell_tools.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/a2a_cards.py",
+      "label": "a2a_cards.py",
+      "depth": 2,
+      "summary": "Defines agent capabilities for Google's Agent-to-Agent (A2A) specification in the 'ai-dev-team' project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py",
+      "label": "a2a_routes.py",
+      "depth": 2,
+      "summary": "This file defines API routes for agent discovery and task delegation in the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/TaskRequest",
+        "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/_now",
+        "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/_make_card",
+        "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/register_a2a_routes"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/TaskRequest",
+      "label": "TaskRequest",
+      "depth": 3,
+      "summary": "TaskRequest defined in a2a_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/_now",
+      "label": "_now",
+      "depth": 3,
+      "summary": "_now defined in a2a_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/_make_card",
+      "label": "_make_card",
+      "depth": 3,
+      "summary": "_make_card defined in a2a_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/register_a2a_routes",
+      "label": "register_a2a_routes",
+      "depth": 3,
+      "summary": "register_a2a_routes defined in a2a_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "label": "agui_routes.py",
+      "depth": 2,
+      "summary": "This file adds AG-UI routes to a FastAPI app for managing SSE event streams.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_now_ms",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_event",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_started",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_finished",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_error",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_step_started",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_step_finished",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_text_message",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_state_delta",
+        "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_tool_call"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_now_ms",
+      "label": "_now_ms",
+      "depth": 3,
+      "summary": "_now_ms defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_event",
+      "label": "_event",
+      "depth": 3,
+      "summary": "_event defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_started",
+      "label": "_run_started",
+      "depth": 3,
+      "summary": "_run_started defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_finished",
+      "label": "_run_finished",
+      "depth": 3,
+      "summary": "_run_finished defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_error",
+      "label": "_run_error",
+      "depth": 3,
+      "summary": "_run_error defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_step_started",
+      "label": "_step_started",
+      "depth": 3,
+      "summary": "_step_started defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_step_finished",
+      "label": "_step_finished",
+      "depth": 3,
+      "summary": "_step_finished defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_text_message",
+      "label": "_text_message",
+      "depth": 3,
+      "summary": "_text_message defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_state_delta",
+      "label": "_state_delta",
+      "depth": 3,
+      "summary": "_state_delta defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_tool_call",
+      "label": "_tool_call",
+      "depth": 3,
+      "summary": "_tool_call defined in agui_routes.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/app.py",
+      "label": "app.py",
+      "depth": 2,
+      "summary": "The app.py file is the main entry point for the 'ai-dev-team' project's live dashboard application.",
+      "children": [
+        "ai-dev-team/ai-dev-team/ai_team/web/app.py/ControlState",
+        "ai-dev-team/ai-dev-team/ai_team/web/app.py/_make_control",
+        "ai-dev-team/ai-dev-team/ai_team/web/app.py/push_output",
+        "ai-dev-team/ai-dev-team/ai_team/web/app.py/create_app",
+        "ai-dev-team/ai-dev-team/ai_team/web/app.py/_dashboard_html"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/app.py/ControlState",
+      "label": "ControlState",
+      "depth": 3,
+      "summary": "ControlState defined in app.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/app.py/_make_control",
+      "label": "_make_control",
+      "depth": 3,
+      "summary": "_make_control defined in app.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/app.py/push_output",
+      "label": "push_output",
+      "depth": 3,
+      "summary": "push_output defined in app.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/app.py/create_app",
+      "label": "create_app",
+      "depth": 3,
+      "summary": "create_app defined in app.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/ai_team/web/app.py/_dashboard_html",
+      "label": "_dashboard_html",
+      "depth": 3,
+      "summary": "_dashboard_html defined in app.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/docs",
+      "label": "docs",
+      "depth": 1,
+      "summary": "This folder contains documentation related to the 'ai-dev-team' project for internal and external reference.",
+      "children": [
+        "ai-dev-team/ai-dev-team/docs/superpowers/plans/2026-04-17-ai-dev-team-major-upgrades.md",
+        "ai-dev-team/ai-dev-team/docs/superpowers/plans/2026-04-17-ai-dev-team-upgrade.md"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/docs/superpowers/plans/2026-04-17-ai-dev-team-major-upgrades.md",
+      "label": "2026-04-17-ai-dev-team-major-upgrades.md",
+      "depth": 2,
+      "summary": "This file outlines an implementation plan for major upgrades to the AI dev team.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/docs/superpowers/plans/2026-04-17-ai-dev-team-upgrade.md",
+      "label": "2026-04-17-ai-dev-team-upgrade.md",
+      "depth": 2,
+      "summary": "This file outlines an upgrade implementation plan for the AI Dev Team project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests",
+      "label": "tests",
+      "depth": 1,
+      "summary": "This folder contains automated tests for AI-related components of the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/__init__.py",
+        "ai-dev-team/ai-dev-team/tests/deepeval/__init__.py",
+        "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py",
+        "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py",
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/deepeval/__init__.py",
+      "label": "__init__.py",
+      "depth": 2,
+      "summary": "Initializes the MeetSync application, handling imports and setup configurations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py",
+      "label": "test_agent_quality.py",
+      "depth": 2,
+      "summary": "This file tests DeepEval quality gates for AI Dev Team agents via automated GitHub Actions.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/_case",
+        "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestCoderAgentQuality",
+        "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestReviewerAgentQuality",
+        "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestSecurityAgentQuality",
+        "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestHallucinationGate"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/_case",
+      "label": "_case",
+      "depth": 3,
+      "summary": "_case defined in test_agent_quality.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestCoderAgentQuality",
+      "label": "TestCoderAgentQuality",
+      "depth": 3,
+      "summary": "TestCoderAgentQuality defined in test_agent_quality.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestReviewerAgentQuality",
+      "label": "TestReviewerAgentQuality",
+      "depth": 3,
+      "summary": "TestReviewerAgentQuality defined in test_agent_quality.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestSecurityAgentQuality",
+      "label": "TestSecurityAgentQuality",
+      "depth": 3,
+      "summary": "TestSecurityAgentQuality defined in test_agent_quality.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestHallucinationGate",
+      "label": "TestHallucinationGate",
+      "depth": 3,
+      "summary": "TestHallucinationGate defined in test_agent_quality.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py",
+      "label": "test_auditor_agent.py",
+      "depth": 2,
+      "summary": "The test_auditor_agent.py file tests the importability of the Auditor Agent in the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestAuditorImport",
+        "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestSystemPrompt",
+        "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestAuditorAgentReturn"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestAuditorImport",
+      "label": "TestAuditorImport",
+      "depth": 3,
+      "summary": "TestAuditorImport defined in test_auditor_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestSystemPrompt",
+      "label": "TestSystemPrompt",
+      "depth": 3,
+      "summary": "TestSystemPrompt defined in test_auditor_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestAuditorAgentReturn",
+      "label": "TestAuditorAgentReturn",
+      "depth": 3,
+      "summary": "TestAuditorAgentReturn defined in test_auditor_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "label": "test_bus.py",
+      "depth": 2,
+      "summary": "This file tests SQLite persistence and thread tracking for the AgentBus in the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/isolated_bus",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/TestPublish",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/TestConsume",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/TestAllMessages",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/TestAsStateMessages",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/TestThreading",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/TestReset",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/TestThreadSafety",
+        "ai-dev-team/ai-dev-team/tests/test_bus.py/TestDbSchema"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/isolated_bus",
+      "label": "isolated_bus",
+      "depth": 3,
+      "summary": "isolated_bus defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestPublish",
+      "label": "TestPublish",
+      "depth": 3,
+      "summary": "TestPublish defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestConsume",
+      "label": "TestConsume",
+      "depth": 3,
+      "summary": "TestConsume defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestAllMessages",
+      "label": "TestAllMessages",
+      "depth": 3,
+      "summary": "TestAllMessages defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestAsStateMessages",
+      "label": "TestAsStateMessages",
+      "depth": 3,
+      "summary": "TestAsStateMessages defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestThreading",
+      "label": "TestThreading",
+      "depth": 3,
+      "summary": "TestThreading defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestReset",
+      "label": "TestReset",
+      "depth": 3,
+      "summary": "TestReset defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestThreadSafety",
+      "label": "TestThreadSafety",
+      "depth": 3,
+      "summary": "TestThreadSafety defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestDbSchema",
+      "label": "TestDbSchema",
+      "depth": 3,
+      "summary": "TestDbSchema defined in test_bus.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "label": "test_dashboard.py",
+      "depth": 2,
+      "summary": "This file, test_dashboard.py, tests the ControlState functionality of the ai-dev-team project's dashboard.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlState",
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestPushOutput",
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py/client",
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestHealthEndpoint",
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlEndpoints",
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlStateEndpoint",
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestMessagesEndpoint",
+        "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestDashboardHTML"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlState",
+      "label": "TestControlState",
+      "depth": 3,
+      "summary": "TestControlState defined in test_dashboard.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestPushOutput",
+      "label": "TestPushOutput",
+      "depth": 3,
+      "summary": "TestPushOutput defined in test_dashboard.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/client",
+      "label": "client",
+      "depth": 3,
+      "summary": "client defined in test_dashboard.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestHealthEndpoint",
+      "label": "TestHealthEndpoint",
+      "depth": 3,
+      "summary": "TestHealthEndpoint defined in test_dashboard.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlEndpoints",
+      "label": "TestControlEndpoints",
+      "depth": 3,
+      "summary": "TestControlEndpoints defined in test_dashboard.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlStateEndpoint",
+      "label": "TestControlStateEndpoint",
+      "depth": 3,
+      "summary": "TestControlStateEndpoint defined in test_dashboard.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestMessagesEndpoint",
+      "label": "TestMessagesEndpoint",
+      "depth": 3,
+      "summary": "TestMessagesEndpoint defined in test_dashboard.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestDashboardHTML",
+      "label": "TestDashboardHTML",
+      "depth": 3,
+      "summary": "TestDashboardHTML defined in test_dashboard.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "label": "test_frontend_desktop_agent.py",
+      "depth": 2,
+      "summary": "This file tests the importability of the frontend_desktop agent in the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_agent_is_importable",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_importable",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_mentions_tauri",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_mentions_rust",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/mock_dependencies",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/_run_agent",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_dict",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_code_changes_key",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_total_tokens_key",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_inject_message_key"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_agent_is_importable",
+      "label": "test_agent_is_importable",
+      "depth": 3,
+      "summary": "test_agent_is_importable defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_importable",
+      "label": "test_system_prompt_importable",
+      "depth": 3,
+      "summary": "test_system_prompt_importable defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_mentions_tauri",
+      "label": "test_system_prompt_mentions_tauri",
+      "depth": 3,
+      "summary": "test_system_prompt_mentions_tauri defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_mentions_rust",
+      "label": "test_system_prompt_mentions_rust",
+      "depth": 3,
+      "summary": "test_system_prompt_mentions_rust defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/mock_dependencies",
+      "label": "mock_dependencies",
+      "depth": 3,
+      "summary": "mock_dependencies defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/_run_agent",
+      "label": "_run_agent",
+      "depth": 3,
+      "summary": "_run_agent defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_dict",
+      "label": "test_returns_dict",
+      "depth": 3,
+      "summary": "test_returns_dict defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_code_changes_key",
+      "label": "test_returns_code_changes_key",
+      "depth": 3,
+      "summary": "test_returns_code_changes_key defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_total_tokens_key",
+      "label": "test_returns_total_tokens_key",
+      "depth": 3,
+      "summary": "test_returns_total_tokens_key defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_inject_message_key",
+      "label": "test_returns_inject_message_key",
+      "depth": 3,
+      "summary": "test_returns_inject_message_key defined in test_frontend_desktop_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "label": "test_frontend_detector.py",
+      "depth": 2,
+      "summary": "This file contains tests for detect_frontend_target() in ai_dev_team's project_detector.py module.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_tauri_conf_json_returns_desktop",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_build_gradle_kts_returns_mobile",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_android_manifest_returns_mobile",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_package_json_with_react_returns_web",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_package_json_with_next_returns_web",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_cargo_toml_with_tauri_returns_desktop",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_override_beats_tauri_conf",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_empty_directory_returns_backend",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_nonexistent_directory_returns_backend",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_malformed_package_json_returns_backend"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_tauri_conf_json_returns_desktop",
+      "label": "test_tauri_conf_json_returns_desktop",
+      "depth": 3,
+      "summary": "test_tauri_conf_json_returns_desktop defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_build_gradle_kts_returns_mobile",
+      "label": "test_build_gradle_kts_returns_mobile",
+      "depth": 3,
+      "summary": "test_build_gradle_kts_returns_mobile defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_android_manifest_returns_mobile",
+      "label": "test_android_manifest_returns_mobile",
+      "depth": 3,
+      "summary": "test_android_manifest_returns_mobile defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_package_json_with_react_returns_web",
+      "label": "test_package_json_with_react_returns_web",
+      "depth": 3,
+      "summary": "test_package_json_with_react_returns_web defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_package_json_with_next_returns_web",
+      "label": "test_package_json_with_next_returns_web",
+      "depth": 3,
+      "summary": "test_package_json_with_next_returns_web defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_cargo_toml_with_tauri_returns_desktop",
+      "label": "test_cargo_toml_with_tauri_returns_desktop",
+      "depth": 3,
+      "summary": "test_cargo_toml_with_tauri_returns_desktop defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_override_beats_tauri_conf",
+      "label": "test_override_beats_tauri_conf",
+      "depth": 3,
+      "summary": "test_override_beats_tauri_conf defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_empty_directory_returns_backend",
+      "label": "test_empty_directory_returns_backend",
+      "depth": 3,
+      "summary": "test_empty_directory_returns_backend defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_nonexistent_directory_returns_backend",
+      "label": "test_nonexistent_directory_returns_backend",
+      "depth": 3,
+      "summary": "test_nonexistent_directory_returns_backend defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_malformed_package_json_returns_backend",
+      "label": "test_malformed_package_json_returns_backend",
+      "depth": 3,
+      "summary": "test_malformed_package_json_returns_backend defined in test_frontend_detector.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py",
+      "label": "test_frontend_mobile_agent.py",
+      "depth": 2,
+      "summary": "This file contains unit tests for the frontend_mobile agent in the 'ai-dev-team' project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/_make_react_loop_module",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestImport",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestSystemPrompt",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestFrontendMobileAgentReturn"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/_make_react_loop_module",
+      "label": "_make_react_loop_module",
+      "depth": 3,
+      "summary": "_make_react_loop_module defined in test_frontend_mobile_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestImport",
+      "label": "TestImport",
+      "depth": 3,
+      "summary": "TestImport defined in test_frontend_mobile_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestSystemPrompt",
+      "label": "TestSystemPrompt",
+      "depth": 3,
+      "summary": "TestSystemPrompt defined in test_frontend_mobile_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestFrontendMobileAgentReturn",
+      "label": "TestFrontendMobileAgentReturn",
+      "depth": 3,
+      "summary": "TestFrontendMobileAgentReturn defined in test_frontend_mobile_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "label": "test_frontend_web_agent.py",
+      "depth": 2,
+      "summary": "This file tests the functionality of the frontend_web_agent in the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_is_importable",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_system_prompt_mentions_typescript",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_system_prompt_mentions_nextjs",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/minimal_state",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/_make_fake_ai_message",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/_patch_lazy_imports",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_returns_expected_keys",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_clears_inject_message",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_returns_code_changes_list",
+        "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_publishes_completion"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_is_importable",
+      "label": "test_frontend_web_agent_is_importable",
+      "depth": 3,
+      "summary": "test_frontend_web_agent_is_importable defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_system_prompt_mentions_typescript",
+      "label": "test_system_prompt_mentions_typescript",
+      "depth": 3,
+      "summary": "test_system_prompt_mentions_typescript defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_system_prompt_mentions_nextjs",
+      "label": "test_system_prompt_mentions_nextjs",
+      "depth": 3,
+      "summary": "test_system_prompt_mentions_nextjs defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/minimal_state",
+      "label": "minimal_state",
+      "depth": 3,
+      "summary": "minimal_state defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/_make_fake_ai_message",
+      "label": "_make_fake_ai_message",
+      "depth": 3,
+      "summary": "_make_fake_ai_message defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/_patch_lazy_imports",
+      "label": "_patch_lazy_imports",
+      "depth": 3,
+      "summary": "_patch_lazy_imports defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_returns_expected_keys",
+      "label": "test_frontend_web_agent_returns_expected_keys",
+      "depth": 3,
+      "summary": "test_frontend_web_agent_returns_expected_keys defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_clears_inject_message",
+      "label": "test_frontend_web_agent_clears_inject_message",
+      "depth": 3,
+      "summary": "test_frontend_web_agent_clears_inject_message defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_returns_code_changes_list",
+      "label": "test_frontend_web_agent_returns_code_changes_list",
+      "depth": 3,
+      "summary": "test_frontend_web_agent_returns_code_changes_list defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_publishes_completion",
+      "label": "test_frontend_web_agent_publishes_completion",
+      "depth": 3,
+      "summary": "test_frontend_web_agent_publishes_completion defined in test_frontend_web_agent.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "label": "test_graph_wiring.py",
+      "depth": 2,
+      "summary": "This file tests the importability and functionality of graph wiring in the ai-dev-team project.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_frontend_router_node_importable",
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_web",
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_mobile",
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_desktop",
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_backend",
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_empty_string",
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_missing_key",
+        "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_build_graph_compiles"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_frontend_router_node_importable",
+      "label": "test_frontend_router_node_importable",
+      "depth": 3,
+      "summary": "test_frontend_router_node_importable defined in test_graph_wiring.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_web",
+      "label": "test_route_to_coder_web",
+      "depth": 3,
+      "summary": "test_route_to_coder_web defined in test_graph_wiring.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_mobile",
+      "label": "test_route_to_coder_mobile",
+      "depth": 3,
+      "summary": "test_route_to_coder_mobile defined in test_graph_wiring.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_desktop",
+      "label": "test_route_to_coder_desktop",
+      "depth": 3,
+      "summary": "test_route_to_coder_desktop defined in test_graph_wiring.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_backend",
+      "label": "test_route_to_coder_backend",
+      "depth": 3,
+      "summary": "test_route_to_coder_backend defined in test_graph_wiring.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_empty_string",
+      "label": "test_route_to_coder_empty_string",
+      "depth": 3,
+      "summary": "test_route_to_coder_empty_string defined in test_graph_wiring.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_missing_key",
+      "label": "test_route_to_coder_missing_key",
+      "depth": 3,
+      "summary": "test_route_to_coder_missing_key defined in test_graph_wiring.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_build_graph_compiles",
+      "label": "test_build_graph_compiles",
+      "depth": 3,
+      "summary": "test_build_graph_compiles defined in test_graph_wiring.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "label": "test_state_fields.py",
+      "depth": 2,
+      "summary": "This file tests the existence and types of fields in State, including LangGraph reducers.",
+      "children": [
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_frontend_target_field_exists",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_audit_findings_field_exists",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_paused_field_exists",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_inject_message_field_exists",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_skip_current_field_exists",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_abort_field_exists",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_audit_findings_reducer",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_frontend_target_literal_type",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_paused_is_bool",
+        "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_inject_message_is_str"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_frontend_target_field_exists",
+      "label": "test_frontend_target_field_exists",
+      "depth": 3,
+      "summary": "test_frontend_target_field_exists defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_audit_findings_field_exists",
+      "label": "test_audit_findings_field_exists",
+      "depth": 3,
+      "summary": "test_audit_findings_field_exists defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_paused_field_exists",
+      "label": "test_paused_field_exists",
+      "depth": 3,
+      "summary": "test_paused_field_exists defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_inject_message_field_exists",
+      "label": "test_inject_message_field_exists",
+      "depth": 3,
+      "summary": "test_inject_message_field_exists defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_skip_current_field_exists",
+      "label": "test_skip_current_field_exists",
+      "depth": 3,
+      "summary": "test_skip_current_field_exists defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_abort_field_exists",
+      "label": "test_abort_field_exists",
+      "depth": 3,
+      "summary": "test_abort_field_exists defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_audit_findings_reducer",
+      "label": "test_audit_findings_reducer",
+      "depth": 3,
+      "summary": "test_audit_findings_reducer defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_frontend_target_literal_type",
+      "label": "test_frontend_target_literal_type",
+      "depth": 3,
+      "summary": "test_frontend_target_literal_type defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_paused_is_bool",
+      "label": "test_paused_is_bool",
+      "depth": 3,
+      "summary": "test_paused_is_bool defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_inject_message_is_str",
+      "label": "test_inject_message_is_str",
+      "depth": 3,
+      "summary": "test_inject_message_is_str defined in test_state_fields.py",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "ai-dev-team",
+      "target": "ai-dev-team/ai-dev-team/ai_team"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/__init__.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/__init__.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/architect.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/architect.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/architect.py/architect_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/auditor.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/auditor.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/auditor.py/auditor_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/build_codebase_index"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_walk_files"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_python"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_javascript"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/codebase_indexer.py/_index_go"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/coder.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/coder.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/coder.py/coder_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/debugger.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/debugger.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/debugger.py/debugger_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/designer.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/designer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/designer.py/designer_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/docs.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/docs.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/docs.py/docs_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py/evaluator_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/evaluator.py/_format_findings"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py/_format_work_items"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_desktop.py/frontend_desktop_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py/_format_work_items"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_mobile.py/frontend_mobile_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py/_format_work_items"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/frontend_web.py/frontend_web_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py/_extract_missing_packages"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/import_healer.py/import_healer_node"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/_ensure_dir"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/_memory_file"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/load_lessons"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/save_lesson"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/format_lessons_for_prompt"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/memory.py/extract_lessons_from_evaluation"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/planner.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/planner.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/planner.py/planner_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/detect_project_context"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/detect_frontend_target"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/project_detector.py/_find_file"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/TokenUsage"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/get_token_usage"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/reset_token_usage"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/invoke_llm_with_retry"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/execute_tool_call"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/set_progress_callback"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/_emit_progress"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/ReactResult"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/react_loop"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/react_loop.py/parse_findings"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/requirements.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/requirements.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/requirements.py/requirements_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/reviewer.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/reviewer.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/reviewer.py/reviewer_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/security.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/security.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/security.py/security_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/tester.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/agents/tester.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/agents/tester.py/tester_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/bus.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/bus.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/bus.py/AgentBus"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/config.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/config.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/config.py/_openrouter_keys"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/config.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/config.py/_next_openrouter_key"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/config.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/config.py/_detect_provider"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/config.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/config.py/get_llm"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/config.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/config.py/get_llm_for_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/config.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/config.py/get_project_dir"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/config.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/config.py/get_max_iterations"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/init_node"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/preflight_node"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_requirements"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_design"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/route_after_architecture"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/frontend_router_node"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/route_to_coder"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/_check_intervention"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/fan_out_verification"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/graph.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/graph.py/git_commit_node"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/observability.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/observability.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/observability.py/_get_client"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/observability.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/observability.py/_Noop"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/observability.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/observability.py/trace_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/observability.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/observability.py/log_llm_call"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/observability.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/observability.py/score_pipeline"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/observability.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/observability.py/flush"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/otel.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/otel.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/otel.py/setup_otel"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/otel.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/otel.py/get_tracer"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/__init__.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/CodeChunk"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/_walk_files"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/_split_python_by_symbol"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/chunk_file"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/chunker.py/chunk_project"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_tokenize"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_bm25_search"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_semantic_search"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/_rrf_fuse"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/hybrid_search.py/hybrid_search"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/_lessons_paths"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/_lessons_hash"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/index_lessons"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/retrieve_relevant_lessons"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/lessons_rag.py/format_relevant_lessons"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_project_slug"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_store_paths"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_get_embedder"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_embed_texts"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_read_mtimes"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_current_mtimes"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/_changed_files"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/build_index"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/search"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/rag/store.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/rag/store.py/index_exists"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/state.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/state.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/state.py/AgentFinding"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/state.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/state.py/AgentMessage"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/state.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/state.py/WorkItem"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/state.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/state.py/_keep_recent_messages"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/state.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/state.py/_replace_work_items"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/state.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/state.py/State"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/__init__.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/set_rag_project"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/search_codebase"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/reindex_codebase"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/rag_tools.py/rag_index_status"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/set_project_sandbox"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_validate_path"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_scrub_secrets"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/_validate_command"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/read_file"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/write_file"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/edit_file"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/list_directory"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/search_files"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/tools/shell_tools.py/run_command"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/__init__.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/a2a_cards.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/TaskRequest"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/_now"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/_make_card"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/a2a_routes.py/register_a2a_routes"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_now_ms"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_event"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_started"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_finished"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_run_error"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_step_started"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_step_finished"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_text_message"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_state_delta"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/agui_routes.py/_tool_call"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/app.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/app.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/app.py/ControlState"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/app.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/app.py/_make_control"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/app.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/app.py/push_output"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/app.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/app.py/create_app"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/ai_team/web/app.py",
+      "target": "ai-dev-team/ai-dev-team/ai_team/web/app.py/_dashboard_html"
+    },
+    {
+      "source": "ai-dev-team",
+      "target": "ai-dev-team/ai-dev-team/docs"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/docs",
+      "target": "ai-dev-team/ai-dev-team/docs/superpowers/plans/2026-04-17-ai-dev-team-major-upgrades.md"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/docs",
+      "target": "ai-dev-team/ai-dev-team/docs/superpowers/plans/2026-04-17-ai-dev-team-upgrade.md"
+    },
+    {
+      "source": "ai-dev-team",
+      "target": "ai-dev-team/ai-dev-team/tests"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/__init__.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/deepeval/__init__.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py",
+      "target": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/_case"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py",
+      "target": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestCoderAgentQuality"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py",
+      "target": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestReviewerAgentQuality"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py",
+      "target": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestSecurityAgentQuality"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py",
+      "target": "ai-dev-team/ai-dev-team/tests/deepeval/test_agent_quality.py/TestHallucinationGate"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestAuditorImport"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestSystemPrompt"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_auditor_agent.py/TestAuditorAgentReturn"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/isolated_bus"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestPublish"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestConsume"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestAllMessages"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestAsStateMessages"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestThreading"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestReset"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestThreadSafety"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_bus.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_bus.py/TestDbSchema"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlState"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestPushOutput"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/client"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestHealthEndpoint"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlEndpoints"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestControlStateEndpoint"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestMessagesEndpoint"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_dashboard.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_dashboard.py/TestDashboardHTML"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_agent_is_importable"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_importable"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_mentions_tauri"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_system_prompt_mentions_rust"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/mock_dependencies"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/_run_agent"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_dict"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_code_changes_key"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_total_tokens_key"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_desktop_agent.py/test_returns_inject_message_key"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_tauri_conf_json_returns_desktop"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_build_gradle_kts_returns_mobile"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_android_manifest_returns_mobile"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_package_json_with_react_returns_web"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_package_json_with_next_returns_web"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_cargo_toml_with_tauri_returns_desktop"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_override_beats_tauri_conf"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_empty_directory_returns_backend"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_nonexistent_directory_returns_backend"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_detector.py/test_malformed_package_json_returns_backend"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/_make_react_loop_module"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestImport"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestSystemPrompt"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_mobile_agent.py/TestFrontendMobileAgentReturn"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_is_importable"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_system_prompt_mentions_typescript"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_system_prompt_mentions_nextjs"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/minimal_state"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/_make_fake_ai_message"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/_patch_lazy_imports"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_returns_expected_keys"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_clears_inject_message"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_returns_code_changes_list"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_frontend_web_agent.py/test_frontend_web_agent_publishes_completion"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_frontend_router_node_importable"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_web"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_mobile"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_desktop"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_backend"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_empty_string"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_route_to_coder_missing_key"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_graph_wiring.py/test_build_graph_compiles"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_frontend_target_field_exists"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_audit_findings_field_exists"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_paused_field_exists"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_inject_message_field_exists"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_skip_current_field_exists"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_abort_field_exists"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_audit_findings_reducer"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_frontend_target_literal_type"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_paused_is_bool"
+    },
+    {
+      "source": "ai-dev-team/ai-dev-team/tests/test_state_fields.py",
+      "target": "ai-dev-team/ai-dev-team/tests/test_state_fields.py/test_inject_message_is_str"
+    }
+  ]
+}

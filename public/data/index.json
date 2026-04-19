@@ -1,0 +1,47 @@
+[
+  {
+    "slug": "bms",
+    "project": "BMS",
+    "description": "The BMS project provides a content preview of the BMS path."
+  },
+  {
+    "slug": "meetsync",
+    "project": "MeetSync",
+    "description": "MeetSync displays a preview of content within its chat interface."
+  },
+  {
+    "slug": "worksheet-daily",
+    "project": "Worksheet daily",
+    "description": "The project provides a content preview for the Worksheet daily website feature."
+  },
+  {
+    "slug": "ai-dev-team",
+    "project": "ai-dev-team",
+    "description": "Generates content previews from project descriptions to improve project visibility in the AI development team."
+  },
+  {
+    "slug": "daraqutni_scraper",
+    "project": "daraqutni_scraper",
+    "description": "The project scrapes daraqutni.com content based on user input for specific book or author names."
+  },
+  {
+    "slug": "mishkat_scraper",
+    "project": "mishkat_scraper",
+    "description": "The project appears to be a web scraper for Mishkat content preview functionality extraction."
+  },
+  {
+    "slug": "portfolio",
+    "project": "portfolio",
+    "description": "This project previews content within a portfolio, giving users a glimpse before accessing further information."
+  },
+  {
+    "slug": "sheikhbasit",
+    "project": "sheikhBasit",
+    "description": "This project displays a content preview for the 'sheikhBasit' project at a specified path."
+  },
+  {
+    "slug": "tams",
+    "project": "tams",
+    "description": "The project provides a content preview at the specified path within the TAMS framework."
+  }
+]

@@ -1,0 +1,730 @@
+{
+  "project": "BMS",
+  "slug": "bms",
+  "description": "The BMS project provides a content preview of the BMS path.",
+  "nodes": [
+    {
+      "id": "bms",
+      "label": "BMS",
+      "depth": 0,
+      "summary": "The BMS project provides a content preview of the BMS path.",
+      "children": [
+        "bms/BMS/app.py",
+        "bms/BMS/assignment_prototype",
+        "bms/BMS/data",
+        "bms/BMS/instance",
+        "bms/BMS/static",
+        "bms/BMS/templates",
+        "bms/BMS/tests"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/app.py",
+      "label": "app.py",
+      "depth": 1,
+      "summary": "This entry point file sets up the BMS project's Flask application instance.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/assignment_prototype",
+      "label": "assignment_prototype",
+      "depth": 1,
+      "summary": "The assignment_prototype folder holds a prototype version of the project's assignment functionality and testing.",
+      "children": [
+        "bms/BMS/assignment_prototype/borrow.html",
+        "bms/BMS/assignment_prototype/index.html"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/assignment_prototype/borrow.html",
+      "label": "borrow.html",
+      "depth": 2,
+      "summary": "The borrow.html file handles user requests to borrow books in the BMS project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/assignment_prototype/index.html",
+      "label": "index.html",
+      "depth": 2,
+      "summary": "This file (index.html) serves as the home page of the BMS Book Sharing Platform's web interface.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/data",
+      "label": "data",
+      "depth": 1,
+      "summary": "The \"data\" folder in the BMS project stores and manages project-related data files.",
+      "children": [
+        "bms/BMS/data/Fall 2025_CS619_11755.pdf"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/data/Fall 2025_CS619_11755.pdf",
+      "label": "Fall 2025_CS619_11755.pdf",
+      "depth": 2,
+      "summary": "\b\u000e\b\u0018\b\u0013\b\u0018\b\u0013\b\u0018\b\u0011\b\u0018\b\u0011\b\u0018\b\u0014\b\u0015\b\b\u0016\b\u0018\b\u0011\b\u0018\b\u0014\b\u0013\u0010\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/instance",
+      "label": "instance",
+      "depth": 1,
+      "summary": "Stores a preview of the instance within the BMS project.",
+      "children": [
+        "bms/BMS/instance/bms.db"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/instance/bms.db",
+      "label": "bms.db",
+      "depth": 2,
+      "summary": "@ 10485760.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/static",
+      "label": "static",
+      "depth": 1,
+      "summary": "Stores static assets for the BMS project, such as images and CSS files.",
+      "children": [
+        "bms/BMS/static/style.css",
+        "bms/BMS/static/uploads/525ccc85b4b84c67b3baa399734892cd_Fall_2025_CS619_11755.pdf",
+        "bms/BMS/static/uploads/59f17e561b59495582fa07e951a29e1b_Fall_2025_CS619_11755.pdf",
+        "bms/BMS/static/uploads/test_book.pdf"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/static/style.css",
+      "label": "style.css",
+      "depth": 2,
+      "summary": "Defines custom color variables and styles for the BMS project's CSS theme.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/static/uploads/525ccc85b4b84c67b3baa399734892cd_Fall_2025_CS619_11755.pdf",
+      "label": "525ccc85b4b84c67b3baa399734892cd_Fall_2025_CS619_11755.pdf",
+      "depth": 2,
+      "summary": "\b\u000e\b\u0018\b\u0013\b\u0018\b\u0013\b\u0018\b\u0011\b\u0018\b\u0011\b\u0018\b\u0014\b\u0015\b\b\u0016\b\u0018\b\u0011\b\u0018\b\u0014\b\u0013\u0010\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/static/uploads/59f17e561b59495582fa07e951a29e1b_Fall_2025_CS619_11755.pdf",
+      "label": "59f17e561b59495582fa07e951a29e1b_Fall_2025_CS619_11755.pdf",
+      "depth": 2,
+      "summary": "\b\u000e\b\u0018\b\u0013\b\u0018\b\u0013\b\u0018\b\u0011\b\u0018\b\u0011\b\u0018\b\u0014\b\u0015\b\b\u0016\b\u0018\b\u0011\b\u0018\b\u0014\b\u0013\u0010\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/static/uploads/test_book.pdf",
+      "label": "test_book.pdf",
+      "depth": 2,
+      "summary": "\b\u000e\b\u0018\b\u0013\b\u0018\b\u0013\b\u0018\b\u0011\b\u0018\b\u0011\b\u0018\b\u0014\b\u0015\b\b\u0016\b\u0018\b\u0011\b\u0018\b\u0014\b\u0013\u0010\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates",
+      "label": "templates",
+      "depth": 1,
+      "summary": "This folder stores reusable templates used for various BMS project documentation and communications.",
+      "children": [
+        "bms/BMS/templates/add_book.html",
+        "bms/BMS/templates/admin.html",
+        "bms/BMS/templates/base.html",
+        "bms/BMS/templates/book_detail.html",
+        "bms/BMS/templates/dashboard.html",
+        "bms/BMS/templates/edit_book.html",
+        "bms/BMS/templates/index.html",
+        "bms/BMS/templates/login.html",
+        "bms/BMS/templates/my_likes.html",
+        "bms/BMS/templates/register.html",
+        "bms/BMS/templates/request_borrow.html"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/add_book.html",
+      "label": "add_book.html",
+      "depth": 2,
+      "summary": "The add_book.html file in BMS creates a form to add new book entries with title, author, and category fields.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/admin.html",
+      "label": "admin.html",
+      "depth": 2,
+      "summary": "This file displays the admin dashboard with overview metrics in the BMS project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/base.html",
+      "label": "base.html",
+      "depth": 2,
+      "summary": "This file defines the base HTML template for the BMS project's web application layout.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/book_detail.html",
+      "label": "book_detail.html",
+      "depth": 2,
+      "summary": "This file serves as a template for the detail page of a specific book in the BMS project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/dashboard.html",
+      "label": "dashboard.html",
+      "depth": 2,
+      "summary": "This file displays a user's dashboard, including their shared books, within the BMS project framework.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/edit_book.html",
+      "label": "edit_book.html",
+      "depth": 2,
+      "summary": "This file provides a user interface to edit book details through a web form submission.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/index.html",
+      "label": "index.html",
+      "depth": 2,
+      "summary": "This file serves as the library home page in the BMS project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/login.html",
+      "label": "login.html",
+      "depth": 2,
+      "summary": "This file renders the login page for the BMS project using a base template framework.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/my_likes.html",
+      "label": "my_likes.html",
+      "depth": 2,
+      "summary": "This file displays a list of the user's liked books in the BMS project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/register.html",
+      "label": "register.html",
+      "depth": 2,
+      "summary": "This file serves as a registration page for users in the BMS project's user authentication system.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/templates/request_borrow.html",
+      "label": "request_borrow.html",
+      "depth": 2,
+      "summary": "This file allows users to request borrowing a book in the BMS project through a web-based form.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests",
+      "label": "tests",
+      "depth": 1,
+      "summary": "This folder contains test scripts for validating the functionality of the BMS project.",
+      "children": [
+        "bms/BMS/tests/conftest.py",
+        "bms/BMS/tests/test_endpoints.py",
+        "bms/BMS/tests/test_extended.py",
+        "bms/BMS/tests/test_features.py"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/conftest.py",
+      "label": "conftest.py",
+      "depth": 2,
+      "summary": "This file provides test fixtures for the BMS project's application, database, and user setup.",
+      "children": [
+        "bms/BMS/tests/conftest.py/client",
+        "bms/BMS/tests/conftest.py/init_database"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/conftest.py/client",
+      "label": "client",
+      "depth": 3,
+      "summary": "client defined in conftest.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/conftest.py/init_database",
+      "label": "init_database",
+      "depth": 3,
+      "summary": "init_database defined in conftest.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py",
+      "label": "test_endpoints.py",
+      "depth": 2,
+      "summary": "This file tests the end points of the book management system through the 'BMS' project using pytest.",
+      "children": [
+        "bms/BMS/tests/test_endpoints.py/login",
+        "bms/BMS/tests/test_endpoints.py/logout",
+        "bms/BMS/tests/test_endpoints.py/test_register",
+        "bms/BMS/tests/test_endpoints.py/test_login_logout",
+        "bms/BMS/tests/test_endpoints.py/test_add_book",
+        "bms/BMS/tests/test_endpoints.py/test_index_search",
+        "bms/BMS/tests/test_endpoints.py/test_borrow_request_workflow",
+        "bms/BMS/tests/test_endpoints.py/test_admin_dashboard"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py/login",
+      "label": "login",
+      "depth": 3,
+      "summary": "login defined in test_endpoints.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py/logout",
+      "label": "logout",
+      "depth": 3,
+      "summary": "logout defined in test_endpoints.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py/test_register",
+      "label": "test_register",
+      "depth": 3,
+      "summary": "test_register defined in test_endpoints.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py/test_login_logout",
+      "label": "test_login_logout",
+      "depth": 3,
+      "summary": "test_login_logout defined in test_endpoints.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py/test_add_book",
+      "label": "test_add_book",
+      "depth": 3,
+      "summary": "test_add_book defined in test_endpoints.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py/test_index_search",
+      "label": "test_index_search",
+      "depth": 3,
+      "summary": "test_index_search defined in test_endpoints.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py/test_borrow_request_workflow",
+      "label": "test_borrow_request_workflow",
+      "depth": 3,
+      "summary": "test_borrow_request_workflow defined in test_endpoints.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_endpoints.py/test_admin_dashboard",
+      "label": "test_admin_dashboard",
+      "depth": 3,
+      "summary": "test_admin_dashboard defined in test_endpoints.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_extended.py",
+      "label": "test_extended.py",
+      "depth": 2,
+      "summary": "This file tests authentication and registration functionality in the BMS project.",
+      "children": [
+        "bms/BMS/tests/test_extended.py/login",
+        "bms/BMS/tests/test_extended.py/test_login_failure",
+        "bms/BMS/tests/test_extended.py/test_duplicate_registration",
+        "bms/BMS/tests/test_extended.py/test_unauthorized_access",
+        "bms/BMS/tests/test_extended.py/test_reject_request_workflow",
+        "bms/BMS/tests/test_extended.py/test_digital_book_add",
+        "bms/BMS/tests/test_extended.py/logout"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_extended.py/login",
+      "label": "login",
+      "depth": 3,
+      "summary": "login defined in test_extended.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_extended.py/test_login_failure",
+      "label": "test_login_failure",
+      "depth": 3,
+      "summary": "test_login_failure defined in test_extended.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_extended.py/test_duplicate_registration",
+      "label": "test_duplicate_registration",
+      "depth": 3,
+      "summary": "test_duplicate_registration defined in test_extended.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_extended.py/test_unauthorized_access",
+      "label": "test_unauthorized_access",
+      "depth": 3,
+      "summary": "test_unauthorized_access defined in test_extended.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_extended.py/test_reject_request_workflow",
+      "label": "test_reject_request_workflow",
+      "depth": 3,
+      "summary": "test_reject_request_workflow defined in test_extended.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_extended.py/test_digital_book_add",
+      "label": "test_digital_book_add",
+      "depth": 3,
+      "summary": "test_digital_book_add defined in test_extended.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_extended.py/logout",
+      "label": "logout",
+      "depth": 3,
+      "summary": "logout defined in test_extended.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_features.py",
+      "label": "test_features.py",
+      "depth": 2,
+      "summary": "Tests book editing functionality in the BMS project through the 'test_edit_book' function.",
+      "children": [
+        "bms/BMS/tests/test_features.py/login",
+        "bms/BMS/tests/test_features.py/test_edit_book",
+        "bms/BMS/tests/test_features.py/test_delete_book",
+        "bms/BMS/tests/test_features.py/test_like_book_api",
+        "bms/BMS/tests/test_features.py/test_admin_block_user",
+        "bms/BMS/tests/test_features.py/test_book_detail_and_likes_page",
+        "bms/BMS/tests/test_features.py/test_search_categories"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_features.py/login",
+      "label": "login",
+      "depth": 3,
+      "summary": "login defined in test_features.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_features.py/test_edit_book",
+      "label": "test_edit_book",
+      "depth": 3,
+      "summary": "test_edit_book defined in test_features.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_features.py/test_delete_book",
+      "label": "test_delete_book",
+      "depth": 3,
+      "summary": "test_delete_book defined in test_features.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_features.py/test_like_book_api",
+      "label": "test_like_book_api",
+      "depth": 3,
+      "summary": "test_like_book_api defined in test_features.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_features.py/test_admin_block_user",
+      "label": "test_admin_block_user",
+      "depth": 3,
+      "summary": "test_admin_block_user defined in test_features.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_features.py/test_book_detail_and_likes_page",
+      "label": "test_book_detail_and_likes_page",
+      "depth": 3,
+      "summary": "test_book_detail_and_likes_page defined in test_features.py",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "bms/BMS/tests/test_features.py/test_search_categories",
+      "label": "test_search_categories",
+      "depth": 3,
+      "summary": "test_search_categories defined in test_features.py",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "bms",
+      "target": "bms/BMS/app.py"
+    },
+    {
+      "source": "bms",
+      "target": "bms/BMS/assignment_prototype"
+    },
+    {
+      "source": "bms/BMS/assignment_prototype",
+      "target": "bms/BMS/assignment_prototype/borrow.html"
+    },
+    {
+      "source": "bms/BMS/assignment_prototype",
+      "target": "bms/BMS/assignment_prototype/index.html"
+    },
+    {
+      "source": "bms",
+      "target": "bms/BMS/data"
+    },
+    {
+      "source": "bms/BMS/data",
+      "target": "bms/BMS/data/Fall 2025_CS619_11755.pdf"
+    },
+    {
+      "source": "bms",
+      "target": "bms/BMS/instance"
+    },
+    {
+      "source": "bms/BMS/instance",
+      "target": "bms/BMS/instance/bms.db"
+    },
+    {
+      "source": "bms",
+      "target": "bms/BMS/static"
+    },
+    {
+      "source": "bms/BMS/static",
+      "target": "bms/BMS/static/style.css"
+    },
+    {
+      "source": "bms/BMS/static",
+      "target": "bms/BMS/static/uploads/525ccc85b4b84c67b3baa399734892cd_Fall_2025_CS619_11755.pdf"
+    },
+    {
+      "source": "bms/BMS/static",
+      "target": "bms/BMS/static/uploads/59f17e561b59495582fa07e951a29e1b_Fall_2025_CS619_11755.pdf"
+    },
+    {
+      "source": "bms/BMS/static",
+      "target": "bms/BMS/static/uploads/test_book.pdf"
+    },
+    {
+      "source": "bms",
+      "target": "bms/BMS/templates"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/add_book.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/admin.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/base.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/book_detail.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/dashboard.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/edit_book.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/index.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/login.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/my_likes.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/register.html"
+    },
+    {
+      "source": "bms/BMS/templates",
+      "target": "bms/BMS/templates/request_borrow.html"
+    },
+    {
+      "source": "bms",
+      "target": "bms/BMS/tests"
+    },
+    {
+      "source": "bms/BMS/tests",
+      "target": "bms/BMS/tests/conftest.py"
+    },
+    {
+      "source": "bms/BMS/tests/conftest.py",
+      "target": "bms/BMS/tests/conftest.py/client"
+    },
+    {
+      "source": "bms/BMS/tests/conftest.py",
+      "target": "bms/BMS/tests/conftest.py/init_database"
+    },
+    {
+      "source": "bms/BMS/tests",
+      "target": "bms/BMS/tests/test_endpoints.py"
+    },
+    {
+      "source": "bms/BMS/tests/test_endpoints.py",
+      "target": "bms/BMS/tests/test_endpoints.py/login"
+    },
+    {
+      "source": "bms/BMS/tests/test_endpoints.py",
+      "target": "bms/BMS/tests/test_endpoints.py/logout"
+    },
+    {
+      "source": "bms/BMS/tests/test_endpoints.py",
+      "target": "bms/BMS/tests/test_endpoints.py/test_register"
+    },
+    {
+      "source": "bms/BMS/tests/test_endpoints.py",
+      "target": "bms/BMS/tests/test_endpoints.py/test_login_logout"
+    },
+    {
+      "source": "bms/BMS/tests/test_endpoints.py",
+      "target": "bms/BMS/tests/test_endpoints.py/test_add_book"
+    },
+    {
+      "source": "bms/BMS/tests/test_endpoints.py",
+      "target": "bms/BMS/tests/test_endpoints.py/test_index_search"
+    },
+    {
+      "source": "bms/BMS/tests/test_endpoints.py",
+      "target": "bms/BMS/tests/test_endpoints.py/test_borrow_request_workflow"
+    },
+    {
+      "source": "bms/BMS/tests/test_endpoints.py",
+      "target": "bms/BMS/tests/test_endpoints.py/test_admin_dashboard"
+    },
+    {
+      "source": "bms/BMS/tests",
+      "target": "bms/BMS/tests/test_extended.py"
+    },
+    {
+      "source": "bms/BMS/tests/test_extended.py",
+      "target": "bms/BMS/tests/test_extended.py/login"
+    },
+    {
+      "source": "bms/BMS/tests/test_extended.py",
+      "target": "bms/BMS/tests/test_extended.py/test_login_failure"
+    },
+    {
+      "source": "bms/BMS/tests/test_extended.py",
+      "target": "bms/BMS/tests/test_extended.py/test_duplicate_registration"
+    },
+    {
+      "source": "bms/BMS/tests/test_extended.py",
+      "target": "bms/BMS/tests/test_extended.py/test_unauthorized_access"
+    },
+    {
+      "source": "bms/BMS/tests/test_extended.py",
+      "target": "bms/BMS/tests/test_extended.py/test_reject_request_workflow"
+    },
+    {
+      "source": "bms/BMS/tests/test_extended.py",
+      "target": "bms/BMS/tests/test_extended.py/test_digital_book_add"
+    },
+    {
+      "source": "bms/BMS/tests/test_extended.py",
+      "target": "bms/BMS/tests/test_extended.py/logout"
+    },
+    {
+      "source": "bms/BMS/tests",
+      "target": "bms/BMS/tests/test_features.py"
+    },
+    {
+      "source": "bms/BMS/tests/test_features.py",
+      "target": "bms/BMS/tests/test_features.py/login"
+    },
+    {
+      "source": "bms/BMS/tests/test_features.py",
+      "target": "bms/BMS/tests/test_features.py/test_edit_book"
+    },
+    {
+      "source": "bms/BMS/tests/test_features.py",
+      "target": "bms/BMS/tests/test_features.py/test_delete_book"
+    },
+    {
+      "source": "bms/BMS/tests/test_features.py",
+      "target": "bms/BMS/tests/test_features.py/test_like_book_api"
+    },
+    {
+      "source": "bms/BMS/tests/test_features.py",
+      "target": "bms/BMS/tests/test_features.py/test_admin_block_user"
+    },
+    {
+      "source": "bms/BMS/tests/test_features.py",
+      "target": "bms/BMS/tests/test_features.py/test_book_detail_and_likes_page"
+    },
+    {
+      "source": "bms/BMS/tests/test_features.py",
+      "target": "bms/BMS/tests/test_features.py/test_search_categories"
+    }
+  ]
+}

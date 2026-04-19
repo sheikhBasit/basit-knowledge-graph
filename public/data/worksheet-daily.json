@@ -1,0 +1,124 @@
+{
+  "project": "Worksheet daily",
+  "slug": "worksheet-daily",
+  "description": "The project provides a content preview for the Worksheet daily website feature.",
+  "nodes": [
+    {
+      "id": "worksheet-daily",
+      "label": "Worksheet daily",
+      "depth": 0,
+      "summary": "The project provides a content preview for the Worksheet daily website feature.",
+      "children": [
+        "worksheet-daily/Worksheet daily/api"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "worksheet-daily/Worksheet daily/api",
+      "label": "api",
+      "depth": 1,
+      "summary": "The 'api' folder houses API-related code for the 'Worksheet daily' project.",
+      "children": [
+        "worksheet-daily/Worksheet daily/api/entries.js"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "worksheet-daily/Worksheet daily/api/entries.js",
+      "label": "entries.js",
+      "depth": 2,
+      "summary": "This file creates and ensures the existence of the 'entries' table in the database.",
+      "children": [
+        "worksheet-daily/Worksheet daily/api/entries.js/sql",
+        "worksheet-daily/Worksheet daily/api/entries.js/ensureTable",
+        "worksheet-daily/Worksheet daily/api/entries.js/handler",
+        "worksheet-daily/Worksheet daily/api/entries.js/rows",
+        "worksheet-daily/Worksheet daily/api/entries.js/records",
+        "worksheet-daily/Worksheet daily/api/entries.js/id"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "worksheet-daily/Worksheet daily/api/entries.js/sql",
+      "label": "sql",
+      "depth": 3,
+      "summary": "sql defined in entries.js",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "worksheet-daily/Worksheet daily/api/entries.js/ensureTable",
+      "label": "ensureTable",
+      "depth": 3,
+      "summary": "ensureTable defined in entries.js",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "worksheet-daily/Worksheet daily/api/entries.js/handler",
+      "label": "handler",
+      "depth": 3,
+      "summary": "handler defined in entries.js",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "worksheet-daily/Worksheet daily/api/entries.js/rows",
+      "label": "rows",
+      "depth": 3,
+      "summary": "rows defined in entries.js",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "worksheet-daily/Worksheet daily/api/entries.js/records",
+      "label": "records",
+      "depth": 3,
+      "summary": "records defined in entries.js",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "worksheet-daily/Worksheet daily/api/entries.js/id",
+      "label": "id",
+      "depth": 3,
+      "summary": "id defined in entries.js",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "worksheet-daily",
+      "target": "worksheet-daily/Worksheet daily/api"
+    },
+    {
+      "source": "worksheet-daily/Worksheet daily/api",
+      "target": "worksheet-daily/Worksheet daily/api/entries.js"
+    },
+    {
+      "source": "worksheet-daily/Worksheet daily/api/entries.js",
+      "target": "worksheet-daily/Worksheet daily/api/entries.js/sql"
+    },
+    {
+      "source": "worksheet-daily/Worksheet daily/api/entries.js",
+      "target": "worksheet-daily/Worksheet daily/api/entries.js/ensureTable"
+    },
+    {
+      "source": "worksheet-daily/Worksheet daily/api/entries.js",
+      "target": "worksheet-daily/Worksheet daily/api/entries.js/handler"
+    },
+    {
+      "source": "worksheet-daily/Worksheet daily/api/entries.js",
+      "target": "worksheet-daily/Worksheet daily/api/entries.js/rows"
+    },
+    {
+      "source": "worksheet-daily/Worksheet daily/api/entries.js",
+      "target": "worksheet-daily/Worksheet daily/api/entries.js/records"
+    },
+    {
+      "source": "worksheet-daily/Worksheet daily/api/entries.js",
+      "target": "worksheet-daily/Worksheet daily/api/entries.js/id"
+    }
+  ]
+}

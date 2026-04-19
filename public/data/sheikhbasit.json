@@ -1,0 +1,16 @@
+{
+  "project": "sheikhBasit",
+  "slug": "sheikhbasit",
+  "description": "This project displays a content preview for the 'sheikhBasit' project at a specified path.",
+  "nodes": [
+    {
+      "id": "sheikhbasit",
+      "label": "sheikhBasit",
+      "depth": 0,
+      "summary": "This project displays a content preview for the 'sheikhBasit' project at a specified path.",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": []
+}

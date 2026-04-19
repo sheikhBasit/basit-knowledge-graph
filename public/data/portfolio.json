@@ -1,0 +1,16 @@
+{
+  "project": "portfolio",
+  "slug": "portfolio",
+  "description": "This project previews content within a portfolio, giving users a glimpse before accessing further information.",
+  "nodes": [
+    {
+      "id": "portfolio",
+      "label": "portfolio",
+      "depth": 0,
+      "summary": "This project previews content within a portfolio, giving users a glimpse before accessing further information.",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": []
+}

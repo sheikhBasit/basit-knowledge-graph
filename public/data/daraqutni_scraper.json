@@ -1,0 +1,16 @@
+{
+  "project": "daraqutni_scraper",
+  "slug": "daraqutni_scraper",
+  "description": "The project scrapes daraqutni.com content based on user input for specific book or author names.",
+  "nodes": [
+    {
+      "id": "daraqutni_scraper",
+      "label": "daraqutni_scraper",
+      "depth": 0,
+      "summary": "The project scrapes daraqutni.com content based on user input for specific book or author names.",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": []
+}

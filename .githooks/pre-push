@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+echo "Running knowledge graph analyzer before push..."
+cd "$(git rev-parse --show-toplevel)"
+python3 -m analyzer.main
+git add public/data/
+git diff --staged --quiet || git commit -m "chore: auto-update graph data [skip ci]"
+echo "Graph data updated."
