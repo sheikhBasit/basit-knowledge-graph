@@ -4,14 +4,23 @@ import type { ProjectGraph, GraphNode } from "../types";
 
 interface Props {
   slug: string;
-  onBack: () => void;
+  height?: number;
 }
 
-const DEPTH_COLORS = ["#58a6ff", "#3fb950", "#f0883e", "#a371f7"];
-const DEPTH_RADII = [18, 12, 8, 5];
+const DEPTH_COLORS = [
+  "var(--node-0)",
+  "var(--node-1)",
+  "var(--node-2)",
+  "var(--node-3)",
+];
+const DEPTH_RADII = [16, 11, 7, 4];
 
-export default function GraphView({ slug, onBack }: Props) {
+type SimNode = GraphNode & d3.SimulationNodeDatum;
+type SimLink = { source: SimNode; target: SimNode };
+
+export default function GraphView({ slug, height = 420 }: Props) {
   const svgRef = useRef<SVGSVGElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const [graph, setGraph] = useState<ProjectGraph | null>(null);
   const [visibleIds, setVisibleIds] = useState<Set<string>>(new Set());
   const [tooltip, setTooltip] = useState<{
@@ -19,53 +28,62 @@ export default function GraphView({ slug, onBack }: Props) {
     y: number;
     text: string;
   } | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    setLoading(true);
     fetch(`/data/${slug}.json`)
       .then((r) => r.json())
       .then((g: ProjectGraph) => {
         setGraph(g);
         const rootId = g.nodes.find((n) => n.depth === 0)?.id;
         if (rootId) setVisibleIds(new Set([rootId]));
-      });
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
   }, [slug]);
 
   useEffect(() => {
-    if (!graph || !svgRef.current) return;
+    if (!graph || !svgRef.current || loading) return;
+
     const svg = d3.select(svgRef.current);
     svg.selectAll("*").remove();
 
-    const width = svgRef.current.clientWidth;
-    const height = svgRef.current.clientHeight;
+    const width = svgRef.current.clientWidth || 600;
+    const h = height;
 
-    const visibleNodes = graph.nodes.filter((n) => visibleIds.has(n.id));
-    const visibleEdges = graph.edges.filter(
-      (e) => visibleIds.has(e.source) && visibleIds.has(e.target),
-    );
+    const visibleNodes = graph.nodes.filter((n) =>
+      visibleIds.has(n.id),
+    ) as SimNode[];
+    const visibleEdges = graph.edges
+      .filter((e) => visibleIds.has(e.source) && visibleIds.has(e.target))
+      .map((e) => ({ ...e }));
 
     const sim = d3
-      .forceSimulation(visibleNodes as d3.SimulationNodeDatum[])
+      .forceSimulation<SimNode>(visibleNodes)
       .force(
         "link",
         d3
-          .forceLink(
-            visibleEdges as d3.SimulationLinkDatum<d3.SimulationNodeDatum>[],
+          .forceLink<SimNode, d3.SimulationLinkDatum<SimNode>>(
+            visibleEdges as d3.SimulationLinkDatum<SimNode>[],
           )
-          .id((d: d3.SimulationNodeDatum) => (d as GraphNode).id)
-          .distance(80),
+          .id((d) => d.id)
+          .distance(70),
       )
-      .force("charge", d3.forceManyBody().strength(-200))
-      .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide(30));
+      .force("charge", d3.forceManyBody().strength(-220))
+      .force("center", d3.forceCenter(width / 2, h / 2))
+      .force(
+        "collision",
+        d3.forceCollide<SimNode>((d) => DEPTH_RADII[d.depth] + 10),
+      );
 
     const g = svg.append("g");
+
     svg.call(
       d3
         .zoom<SVGSVGElement, unknown>()
-        .on("zoom", (e) => g.attr("transform", e.transform)) as d3.ZoomBehavior<
-        SVGSVGElement,
-        unknown
-      >,
+        .scaleExtent([0.3, 3])
+        .on("zoom", (e) => g.attr("transform", e.transform)),
     );
 
     const link = g
@@ -73,58 +91,58 @@ export default function GraphView({ slug, onBack }: Props) {
       .selectAll("line")
       .data(visibleEdges)
       .join("line")
-      .attr("stroke", "#30363d")
-      .attr("stroke-width", 1.5);
+      .attr("stroke", "#2d1f4e")
+      .attr("stroke-width", 1.5)
+      .attr("stroke-opacity", 0.8);
 
     const node = g
       .append("g")
-      .selectAll<SVGGElement, GraphNode>("g")
+      .selectAll<SVGGElement, SimNode>("g")
       .data(visibleNodes)
       .join("g")
       .style("cursor", "pointer")
       .call(
         d3
-          .drag<SVGGElement, GraphNode>()
+          .drag<SVGGElement, SimNode>()
           .on("start", (event, d) => {
             if (!event.active) sim.alphaTarget(0.3).restart();
-            (d as d3.SimulationNodeDatum).fx = (d as d3.SimulationNodeDatum).x;
-            (d as d3.SimulationNodeDatum).fy = (d as d3.SimulationNodeDatum).y;
+            d.fx = d.x;
+            d.fy = d.y;
           })
           .on("drag", (event, d) => {
-            (d as d3.SimulationNodeDatum).fx = event.x;
-            (d as d3.SimulationNodeDatum).fy = event.y;
+            d.fx = event.x;
+            d.fy = event.y;
           })
           .on("end", (event, d) => {
             if (!event.active) sim.alphaTarget(0);
-            (d as d3.SimulationNodeDatum).fx = null;
-            (d as d3.SimulationNodeDatum).fy = null;
+            d.fx = null;
+            d.fy = null;
           }),
       )
-      .on("click", (_event, d: GraphNode) => {
+      .on("click", (_e, d: SimNode) => {
         if (d.children.length === 0) return;
         setVisibleIds((prev) => {
           const next = new Set(prev);
-          const allChildrenVisible = d.children.every((c) => prev.has(c));
-          if (allChildrenVisible) {
-            const collect = (id: string) => {
+          const allVisible = d.children.every((c) => prev.has(c));
+          if (allVisible) {
+            const collapse = (id: string) => {
               const n = graph.nodes.find((n) => n.id === id);
               if (!n) return;
               next.delete(id);
-              n.children.forEach(collect);
+              n.children.forEach(collapse);
             };
-            d.children.forEach(collect);
+            d.children.forEach(collapse);
           } else {
             d.children.forEach((c) => next.add(c));
           }
           return next;
         });
       })
-      .on("mouseover", (event, d: GraphNode) => {
-        setTooltip({
-          x: event.clientX + 12,
-          y: event.clientY - 8,
-          text: d.summary,
-        });
+      .on("mouseover", (event, d: SimNode) => {
+        const rect = containerRef.current?.getBoundingClientRect();
+        const x = event.clientX - (rect?.left ?? 0) + 12;
+        const y = event.clientY - (rect?.top ?? 0) - 8;
+        setTooltip({ x, y, text: d.summary });
       })
       .on("mouseout", () => setTooltip(null));
 
@@ -132,19 +150,34 @@ export default function GraphView({ slug, onBack }: Props) {
       .append("circle")
       .attr("r", (d) => DEPTH_RADII[d.depth])
       .attr("fill", (d) => DEPTH_COLORS[d.depth])
-      .attr("stroke", "#0d1117")
-      .attr("stroke-width", 2);
+      .attr("stroke", "var(--bg)")
+      .attr("stroke-width", 2)
+      .attr("filter", (d) =>
+        d.depth === 0 ? "drop-shadow(0 0 8px var(--node-0))" : "none",
+      );
 
     node
       .append("text")
-      .text((d) => d.label)
-      .attr("dy", (d) => DEPTH_RADII[d.depth] + 12)
+      .text((d) => (d.label.length > 18 ? d.label.slice(0, 16) + "…" : d.label))
+      .attr("dy", (d) => DEPTH_RADII[d.depth] + 11)
       .attr("text-anchor", "middle")
-      .attr("fill", "#e6edf3")
-      .attr("font-size", (d) => Math.max(9, 13 - d.depth * 2));
+      .attr("fill", "var(--text-muted)")
+      .attr("font-size", (d) => Math.max(8, 11 - d.depth * 1.5))
+      .attr("pointer-events", "none");
 
-    type SimNode = GraphNode & d3.SimulationNodeDatum;
-    type SimLink = { source: SimNode; target: SimNode };
+    node
+      .filter((d) => d.children.length > 0)
+      .append("text")
+      .text((d) => {
+        const allVisible = d.children.every((c) => visibleIds.has(c));
+        return allVisible ? "−" : "+";
+      })
+      .attr("text-anchor", "middle")
+      .attr("dominant-baseline", "central")
+      .attr("fill", "var(--bg)")
+      .attr("font-size", (d) => DEPTH_RADII[d.depth] * 0.9)
+      .attr("font-weight", 700)
+      .attr("pointer-events", "none");
 
     sim.on("tick", () => {
       link
@@ -152,69 +185,95 @@ export default function GraphView({ slug, onBack }: Props) {
         .attr("y1", (d) => (d as unknown as SimLink).source.y ?? 0)
         .attr("x2", (d) => (d as unknown as SimLink).target.x ?? 0)
         .attr("y2", (d) => (d as unknown as SimLink).target.y ?? 0);
-      node.attr(
-        "transform",
-        (d) => `translate(${(d as SimNode).x ?? 0},${(d as SimNode).y ?? 0})`,
-      );
+      node.attr("transform", (d) => `translate(${d.x ?? 0},${d.y ?? 0})`);
     });
 
     return () => {
       sim.stop();
     };
-  }, [graph, visibleIds]);
+  }, [graph, visibleIds, height, loading]);
 
-  return (
-    <div style={{ position: "relative", width: "100vw", height: "100vh" }}>
-      <button
-        onClick={onBack}
+  if (loading)
+    return (
+      <div
         style={{
-          position: "absolute",
-          top: "1rem",
-          left: "1rem",
-          zIndex: 10,
-          background: "#161b22",
-          border: "1px solid #30363d",
-          color: "#e6edf3",
-          padding: "0.5rem 1rem",
-          borderRadius: "6px",
-          cursor: "pointer",
+          height,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          color: "var(--text-faint)",
+          fontSize: "0.85rem",
         }}
       >
-        ← Back
-      </button>
-      {graph && (
-        <h2
-          style={{
-            position: "absolute",
-            top: "1rem",
-            left: "50%",
-            transform: "translateX(-50%)",
-            zIndex: 10,
-          }}
-        >
-          {graph.project}
-        </h2>
-      )}
-      <svg ref={svgRef} width="100%" height="100%" />
+        Loading graph…
+      </div>
+    );
+
+  return (
+    <div ref={containerRef} style={{ position: "relative", height }}>
+      <svg
+        ref={svgRef}
+        width="100%"
+        height={height}
+        style={{ display: "block" }}
+      />
       {tooltip && (
         <div
           style={{
-            position: "fixed",
+            position: "absolute",
             left: tooltip.x,
             top: tooltip.y,
-            background: "#161b22",
-            border: "1px solid #30363d",
+            background: "var(--bg-card)",
+            border: "1px solid var(--border)",
             borderRadius: "6px",
-            padding: "0.5rem 0.8rem",
-            fontSize: "0.8rem",
-            maxWidth: "260px",
-            zIndex: 20,
+            padding: "0.4rem 0.7rem",
+            fontSize: "0.75rem",
+            maxWidth: "220px",
+            zIndex: 10,
+            color: "var(--text)",
             pointerEvents: "none",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.4)",
           }}
         >
           {tooltip.text}
         </div>
       )}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "0.5rem",
+          right: "0.5rem",
+          display: "flex",
+          gap: "0.5rem",
+          fontSize: "0.65rem",
+          color: "var(--text-faint)",
+        }}
+      >
+        {(
+          [
+            ["Project", "var(--node-0)"],
+            ["Folder", "var(--node-1)"],
+            ["File", "var(--node-2)"],
+            ["Symbol", "var(--node-3)"],
+          ] as [string, string][]
+        ).map(([label, color]) => (
+          <span
+            key={label}
+            style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}
+          >
+            <span
+              style={{
+                width: 7,
+                height: 7,
+                borderRadius: "50%",
+                background: color,
+                display: "inline-block",
+              }}
+            />
+            {label}
+          </span>
+        ))}
+      </div>
     </div>
   );
 }
