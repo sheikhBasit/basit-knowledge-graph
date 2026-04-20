@@ -117,6 +117,15 @@
     "role": "Backend Developer"
   },
   {
+    "slug": "e-cycle-rental",
+    "project": "E-Cycle Rental App",
+    "category": "paid",
+    "description": "Online electric cycle renting app — IoT-integrated booking and tracking using Flutter and Firebase.",
+    "tech": ["Flutter", "Firebase", "IoT"],
+    "repo": "",
+    "role": "Full-Stack Developer"
+  },
+  {
     "slug": "fixibot-fyp",
     "project": "FixiBot FYP",
     "category": "fyp",
