@@ -1,5 +1,23 @@
 [
   {
+    "slug": "nexavoxa",
+    "project": "NexaVoxa",
+    "category": "professional",
+    "description": "AI-powered voice agent platform — real-time multilingual voice conversations with LLM integration.",
+    "tech": ["Python", "Pipecat", "LiveKit", "FastAPI", "PostgreSQL", "Docker"],
+    "repo": "",
+    "role": "Backend Engineer · AI Integration"
+  },
+  {
+    "slug": "auc-backend",
+    "project": "AUC Backend",
+    "category": "professional",
+    "description": "Backend API for the AUC platform — VillaEx Technologies.",
+    "tech": ["Node.js", "Express", "PostgreSQL", "Drizzle ORM", "Docker"],
+    "repo": "",
+    "role": "Backend Engineer"
+  },
+  {
     "slug": "car-rental",
     "project": "Car Rental System",
     "category": "paid",

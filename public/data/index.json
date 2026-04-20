@@ -2,12 +2,5 @@
   { "slug": "ai-dev-team", "project": "AI Dev Team", "description": "Autonomous AI engineering team powered by LangGraph — multi-agent pipeline for code generation and review.", "category": "personal", "hasGraph": true },
   { "slug": "meetsync", "project": "MeetSync", "description": "Self-hosted video meetings with AI notetaker — LiveKit + Groq + Ollama.", "category": "personal", "hasGraph": true },
   { "slug": "iimiai-tafseer-abdulbasit", "project": "IImiAI Tafseer", "description": "AI-powered Quran Tafseer research assistant.", "category": "personal", "hasGraph": true },
-  { "slug": "tams", "project": "TAMS", "description": "Task and attendance management system.", "category": "personal", "hasGraph": true },
-  { "slug": "worksheet-daily", "project": "Worksheet Daily", "description": "Daily worksheet tracker and planner.", "category": "personal", "hasGraph": true },
-  { "slug": "basit-knowledge-graph", "project": "Knowledge Graph Portfolio", "description": "This portfolio — auto-generates knowledge graphs for every project using Python + Groq.", "category": "personal", "hasGraph": true },
-  { "slug": "daraqutni_scraper", "project": "Daraqutni Scraper", "description": "Scraper for the Daraqutni hadith collection.", "category": "personal", "hasGraph": true },
-  { "slug": "mishkat_scraper", "project": "Mishkat Scraper", "description": "Scraper for the Mishkat al-Masabih hadith collection.", "category": "personal", "hasGraph": true },
-  { "slug": "portfolio", "project": "Portfolio", "description": "Personal portfolio website.", "category": "personal", "hasGraph": true },
-  { "slug": "sheikhbasit", "project": "GitHub Profile", "description": "GitHub profile repository.", "category": "personal", "hasGraph": true },
-  { "slug": "bms", "project": "BMS", "description": "Building management system project.", "category": "personal", "hasGraph": true }
+  { "slug": "basit-knowledge-graph", "project": "Knowledge Graph Portfolio", "description": "This portfolio — auto-generates knowledge graphs for every project using Python + Groq.", "category": "personal", "hasGraph": true }
 ]

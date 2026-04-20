@@ -63,23 +63,25 @@ export default function ManualCard({ project }: Props) {
         ))}
       </div>
 
-      <a
-        href={project.repo}
-        target="_blank"
-        rel="noreferrer"
-        style={{
-          fontSize: "0.78rem",
-          color: "var(--emerald)",
-          border:
-            "1px solid color-mix(in srgb, var(--emerald) 25%, transparent)",
-          padding: "0.35rem 0.8rem",
-          borderRadius: "6px",
-          display: "inline-block",
-          transition: "border-color 0.2s",
-        }}
-      >
-        View Repo →
-      </a>
+      {project.repo && (
+        <a
+          href={project.repo}
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            fontSize: "0.78rem",
+            color: "var(--emerald)",
+            border:
+              "1px solid color-mix(in srgb, var(--emerald) 25%, transparent)",
+            padding: "0.35rem 0.8rem",
+            borderRadius: "6px",
+            display: "inline-block",
+            transition: "border-color 0.2s",
+          }}
+        >
+          View Repo →
+        </a>
+      )}
     </div>
   );
 }
