@@ -4,14 +4,7 @@ interface Props {
   project: ManualProject;
 }
 
-const CATEGORY_BADGE: Record<string, { label: string; color: string }> = {
-  paid: { label: "Client Work", color: "var(--emerald)" },
-  fyp: { label: "FYP", color: "var(--gold)" },
-};
-
 export default function ManualCard({ project }: Props) {
-  const badge = CATEGORY_BADGE[project.category];
-
   return (
     <div
       style={{
@@ -22,36 +15,16 @@ export default function ManualCard({ project }: Props) {
         transition: "border-color 0.2s",
       }}
       onMouseEnter={(e) =>
-        (e.currentTarget.style.borderColor = "var(--emerald)")
+        (e.currentTarget.style.borderColor = "var(--purple)")
       }
       onMouseLeave={(e) =>
         (e.currentTarget.style.borderColor = "var(--border)")
       }
     >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-start",
-          marginBottom: "0.5rem",
-        }}
-      >
+      <div style={{ marginBottom: "0.5rem" }}>
         <h3 style={{ fontSize: "1rem", fontWeight: 600, color: "var(--text)" }}>
           {project.project}
         </h3>
-        {badge && (
-          <span
-            style={{
-              fontSize: "0.65rem",
-              color: badge.color,
-              border: `1px solid ${badge.color}40`,
-              padding: "0.15rem 0.5rem",
-              borderRadius: "999px",
-            }}
-          >
-            {badge.label}
-          </span>
-        )}
       </div>
 
       <p

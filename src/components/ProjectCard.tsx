@@ -6,14 +6,8 @@ interface Props {
   project: ProjectMeta;
 }
 
-const CATEGORY_BADGE: Record<string, { label: string; color: string }> = {
-  personal: { label: "Personal", color: "var(--purple)" },
-  professional: { label: "Villaex", color: "var(--gold)" },
-};
-
 export default function ProjectCard({ project }: Props) {
   const [showGraph, setShowGraph] = useState(false);
-  const badge = CATEGORY_BADGE[project.category];
 
   return (
     <div
@@ -26,32 +20,12 @@ export default function ProjectCard({ project }: Props) {
       }}
     >
       <div style={{ padding: "1.25rem 1.5rem" }}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "flex-start",
-            marginBottom: "0.5rem",
-          }}
-        >
+        <div style={{ marginBottom: "0.5rem" }}>
           <h3
             style={{ fontSize: "1rem", fontWeight: 600, color: "var(--text)" }}
           >
             {project.project}
           </h3>
-          {badge && (
-            <span
-              style={{
-                fontSize: "0.65rem",
-                color: badge.color,
-                border: `1px solid ${badge.color}40`,
-                padding: "0.15rem 0.5rem",
-                borderRadius: "999px",
-              }}
-            >
-              {badge.label}
-            </span>
-          )}
         </div>
         <p
           style={{
