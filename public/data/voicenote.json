@@ -1,0 +1,1021 @@
+{
+  "project": "VoiceNote",
+  "slug": "voicenote",
+  "description": "VoiceNote provides a feature to display a content preview for the received or viewed voice messages.",
+  "nodes": [
+    {
+      "id": "voicenote",
+      "label": "VoiceNote",
+      "depth": 0,
+      "summary": "VoiceNote provides a feature to display a content preview for the received or viewed voice messages.",
+      "children": [
+        "voicenote/VoiceNote/app",
+        "voicenote/VoiceNote/gradle"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app",
+      "label": "app",
+      "depth": 1,
+      "summary": "This folder contains frontend implementation for displaying content within the VoiceNote mobile application.",
+      "children": [
+        "voicenote/VoiceNote/app/.gitignore",
+        "voicenote/VoiceNote/app/build.gradle.kts",
+        "voicenote/VoiceNote/app/google-services.json",
+        "voicenote/VoiceNote/app/proguard-rules.pro",
+        "voicenote/VoiceNote/app/src/androidTest/java/com/example/voicenote/ExampleInstrumentedTest.kt",
+        "voicenote/VoiceNote/app/src/main/AndroidManifest.xml",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/MainActivity.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/VoiceNoteApp.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/components/NoteComponents.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/components/SharedComponents.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/security/SecurityManager.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/OverlayService.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/RecordingState.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/VoiceRecordingService.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/ActionExecutor.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/AudioPreprocessor.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/CalendarManager.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/ContactManager.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/DeviceIdProvider.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/PaginationHelper.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/PdfManager.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/workers/ReminderWorker.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/AppDatabase.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/ChatMessageDao.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/Converters.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/NoteDao.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/TaskDao.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/UserDao.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/AppConfig.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/ChatMessage.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/Note.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/Task.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/User.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/network/GroqApi.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/repository/AiRepository.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/repository/FirestoreRepository.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/detail/NoteDetailScreen.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/detail/NoteDetailViewModel.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/home/HomeScreen.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/home/HomeViewModel.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/onboarding/OnboardingScreen.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/recording/RecordingScreen.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/recording/RecordingViewModel.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/settings/ApiSettingsScreen.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/settings/ApiSettingsViewModel.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/tasks/TasksScreen.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/tasks/TasksViewModel.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Color.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Theme.kt",
+        "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Type.kt",
+        "voicenote/VoiceNote/app/src/main/res/drawable/ic_launcher_background.xml",
+        "voicenote/VoiceNote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+        "voicenote/VoiceNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+        "voicenote/VoiceNote/app/src/main/res/values/colors.xml",
+        "voicenote/VoiceNote/app/src/main/res/values/strings.xml",
+        "voicenote/VoiceNote/app/src/main/res/values/themes.xml",
+        "voicenote/VoiceNote/app/src/main/res/xml/backup_rules.xml",
+        "voicenote/VoiceNote/app/src/main/res/xml/data_extraction_rules.xml",
+        "voicenote/VoiceNote/app/src/main/res/xml/file_paths.xml",
+        "voicenote/VoiceNote/app/src/test/java/com/example/voicenote/AudioPreprocessorTest.kt",
+        "voicenote/VoiceNote/app/src/test/java/com/example/voicenote/ExampleUnitTest.kt"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/.gitignore",
+      "label": ".gitignore",
+      "depth": 2,
+      "summary": "The .gitignore file ignores the /build directory for the VoiceNote project in Git.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/build.gradle.kts",
+      "label": "build.gradle.kts",
+      "depth": 2,
+      "summary": "This file configures the VoiceNote project's build and app settings for Android development.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/google-services.json",
+      "label": "google-services.json",
+      "depth": 2,
+      "summary": "This file configures Firebase services for the VoiceNote project's Android client app.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/proguard-rules.pro",
+      "label": "proguard-rules.pro",
+      "depth": 2,
+      "summary": "The file configures ProGuard settings for the VoiceNote project, including Gson optimizations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/androidTest/java/com/example/voicenote/ExampleInstrumentedTest.kt",
+      "label": "ExampleInstrumentedTest.kt",
+      "depth": 2,
+      "summary": "This file tests the app context of VoiceNote using Android instrumented testing.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/AndroidManifest.xml",
+      "label": "AndroidManifest.xml",
+      "depth": 2,
+      "summary": "The AndroidManifest.xml file declares required permissions and features for the VoiceNote application to function.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/MainActivity.kt",
+      "label": "MainActivity.kt",
+      "depth": 2,
+      "summary": "This file serves as the main application entry point for the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/VoiceNoteApp.kt",
+      "label": "VoiceNoteApp.kt",
+      "depth": 2,
+      "summary": "This file initializes the VoiceNote application and provides repositories for local database and cloud data storage.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/components/NoteComponents.kt",
+      "label": "NoteComponents.kt",
+      "depth": 2,
+      "summary": "This file defines reusable Composable UI components for the VoiceNote note editing interface.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/components/SharedComponents.kt",
+      "label": "SharedComponents.kt",
+      "depth": 2,
+      "summary": "Provides reusable UI components for the VoiceNote project, including animations and layouts.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/security/SecurityManager.kt",
+      "label": "SecurityManager.kt",
+      "depth": 2,
+      "summary": "Manages secure file storage for VoiceNote using EncryptedSharedPreferences.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/OverlayService.kt",
+      "label": "OverlayService.kt",
+      "depth": 2,
+      "summary": "This file, OverlayService.kt, handles the VoiceNote overlay functionality.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/RecordingState.kt",
+      "label": "RecordingState.kt",
+      "depth": 2,
+      "summary": "This file holds the singleton state of the VoiceNote recording pipeline.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/VoiceRecordingService.kt",
+      "label": "VoiceRecordingService.kt",
+      "depth": 2,
+      "summary": "The VoiceRecordingService manages voice recordings and handles audio playback for the VoiceNote app.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/ActionExecutor.kt",
+      "label": "ActionExecutor.kt",
+      "depth": 2,
+      "summary": "Executes tasks assigned to a contact through voice notes or messages.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/AudioPreprocessor.kt",
+      "label": "AudioPreprocessor.kt",
+      "depth": 2,
+      "summary": "This file preprocesses audio for optimal Whisper transcription.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/CalendarManager.kt",
+      "label": "CalendarManager.kt",
+      "depth": 2,
+      "summary": "This file manages VoiceNote events on the device calendar, offering a scheduling utility.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/ContactManager.kt",
+      "label": "ContactManager.kt",
+      "depth": 2,
+      "summary": "This file, ContactManager.kt, manages contact search functionality for the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/DeviceIdProvider.kt",
+      "label": "DeviceIdProvider.kt",
+      "depth": 2,
+      "summary": "The DeviceIdProvider class retrieves the device ID for the VoiceNote application.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/PaginationHelper.kt",
+      "label": "PaginationHelper.kt",
+      "depth": 2,
+      "summary": "This file assists Pagination in VoiceNote with a composable function to load more items.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/PdfManager.kt",
+      "label": "PdfManager.kt",
+      "depth": 2,
+      "summary": "PdfManager.kt manages note and task documents for the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/workers/ReminderWorker.kt",
+      "label": "ReminderWorker.kt",
+      "depth": 2,
+      "summary": "This file runs a worker that sends reminders through notifications for VoiceNote appointments or tasks.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/AppDatabase.kt",
+      "label": "AppDatabase.kt",
+      "depth": 2,
+      "summary": "This file establishes a local database for the VoiceNote application using Room.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/ChatMessageDao.kt",
+      "label": "ChatMessageDao.kt",
+      "depth": 2,
+      "summary": "This file provides data access object (DAO) functions for the VoiceNote chat message database.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/Converters.kt",
+      "label": "Converters.kt",
+      "depth": 2,
+      "summary": "This file provides type converters for Priority and NoteStatus in the VoiceNote project database.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/NoteDao.kt",
+      "label": "NoteDao.kt",
+      "depth": 2,
+      "summary": "This file provides a data access object for managing voice notes locally.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/TaskDao.kt",
+      "label": "TaskDao.kt",
+      "depth": 2,
+      "summary": "This file acts as a data access object for local tasks in the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/UserDao.kt",
+      "label": "UserDao.kt",
+      "depth": 2,
+      "summary": "This file defines a Room DAO for managing User data locally in the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/AppConfig.kt",
+      "label": "AppConfig.kt",
+      "depth": 2,
+      "summary": "This file stores VoiceNote application configuration settings for the office hours logic.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/ChatMessage.kt",
+      "label": "ChatMessage.kt",
+      "depth": 2,
+      "summary": "This file defines the data model for chat messages in the 'VoiceNote' project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/Note.kt",
+      "label": "Note.kt",
+      "depth": 2,
+      "summary": "Defines a data model for notes stored in the VoiceNote's Firebase Firestore database.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/Task.kt",
+      "label": "Task.kt",
+      "depth": 2,
+      "summary": "This file defines a Task data model for the VoiceNote project using Room and Firebase Firestore.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/User.kt",
+      "label": "User.kt",
+      "depth": 2,
+      "summary": "This file defines entity classes for users and roles within the VoiceNote data model.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/network/GroqApi.kt",
+      "label": "GroqApi.kt",
+      "depth": 2,
+      "summary": "This file defines a Retrofit API interface for interacting with the Groq API in VoiceNote.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/repository/AiRepository.kt",
+      "label": "AiRepository.kt",
+      "depth": 2,
+      "summary": "The AiRepository.kt file provides data operations for the VoiceNote application through its API integration.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/repository/FirestoreRepository.kt",
+      "label": "FirestoreRepository.kt",
+      "depth": 2,
+      "summary": "This file facilitates interaction between the local database and Firestore for data persistence in VoiceNote.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/detail/NoteDetailScreen.kt",
+      "label": "NoteDetailScreen.kt",
+      "depth": 2,
+      "summary": "The NoteDetailScreen.kt file handles notes details in the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/detail/NoteDetailViewModel.kt",
+      "label": "NoteDetailViewModel.kt",
+      "depth": 2,
+      "summary": "This file provides a ViewModel for displaying and editing note details in the VoiceNote app.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/home/HomeScreen.kt",
+      "label": "HomeScreen.kt",
+      "depth": 2,
+      "summary": "This file defines the home screen layout for the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/home/HomeViewModel.kt",
+      "label": "HomeViewModel.kt",
+      "depth": 2,
+      "summary": "The HomeViewModel class manages the data and business logic for the VoiceNote home screen.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/onboarding/OnboardingScreen.kt",
+      "label": "OnboardingScreen.kt",
+      "depth": 2,
+      "summary": "Handles onboarding process for the VoiceNote app, including permissions and pager navigation.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/recording/RecordingScreen.kt",
+      "label": "RecordingScreen.kt",
+      "depth": 2,
+      "summary": "This file, RecordingScreen.kt, displays the recording interface for VoiceNote features.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/recording/RecordingViewModel.kt",
+      "label": "RecordingViewModel.kt",
+      "depth": 2,
+      "summary": "This class handles recording-related functionality in the VoiceNote app's user interface.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/settings/ApiSettingsScreen.kt",
+      "label": "ApiSettingsScreen.kt",
+      "depth": 2,
+      "summary": "This file displays API settings for the VoiceNote app using Jetpack Compose UI.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/settings/ApiSettingsViewModel.kt",
+      "label": "ApiSettingsViewModel.kt",
+      "depth": 2,
+      "summary": "It manages API settings in VoiceNote's settings feature through a view model.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/tasks/TasksScreen.kt",
+      "label": "TasksScreen.kt",
+      "depth": 2,
+      "summary": "Displays and manages tasks in the VoiceNote feature on the tasks screen.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/tasks/TasksViewModel.kt",
+      "label": "TasksViewModel.kt",
+      "depth": 2,
+      "summary": "This file provides the TasksViewModel for the VoiceNote app, managing tasks and their categories.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Color.kt",
+      "label": "Color.kt",
+      "depth": 2,
+      "summary": "The Color.kt file defines the color palette for the Dark Mode theme in the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Theme.kt",
+      "label": "Theme.kt",
+      "depth": 2,
+      "summary": "This file establishes the dark and light color schemes for VoiceNote's user interface theme.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Type.kt",
+      "label": "Type.kt",
+      "depth": 2,
+      "summary": "The Type.kt file defines typography styles for the VoiceNote UI theme in Material design.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/drawable/ic_launcher_background.xml",
+      "label": "ic_launcher_background.xml",
+      "depth": 2,
+      "summary": "Defines the background image for the StudioProjects app's launcher icon.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+      "label": "ic_launcher_foreground.xml",
+      "depth": 2,
+      "summary": "This file defines the foreground icon for the StudioProjects Android app.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml",
+      "label": "ic_launcher.xml",
+      "depth": 2,
+      "summary": "This file defines the Android app icon for the \"StudioProjects\" project using adaptive graphics.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml",
+      "label": "ic_launcher_round.xml",
+      "depth": 2,
+      "summary": "This file defines the Android app icon for the \"StudioProjects\" project using adaptive graphics.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-hdpi/ic_launcher.webp",
+      "label": "ic_launcher.webp",
+      "depth": 2,
+      "summary": "<metadata>\b<metadata.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp",
+      "label": "ic_launcher_round.webp",
+      "depth": 2,
+      "summary": "CHUNK \t(\t\t&\t\nD\t\t4d4d \n...\n.\n \nThis is just a file content not its name. \n\nIn the context of the Studio Projects, this file contains image content.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-mdpi/ic_launcher.webp",
+      "label": "ic_launcher.webp",
+      "depth": 2,
+      "summary": "LB\u0003 WAVEFORMATEX.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp",
+      "label": "ic_launcher_round.webp",
+      "depth": 2,
+      "summary": "\u0004\u0005\u0006\u0005\u0006\u0004\u0007\u0004\u0019 \u0006\b\b\u0005\u0006\u0007\u0010\u000e\u0011\b\b\u0002\u0006\u000e\u000e\u0014\u0012\u000e\u000e\u0010\u000e\u0012\u000e\b\u0006\u0010\u0011\u0018\u0004\u0014\b\b\u0017\b\u0006\u0004\b\b\u0005\u0004\b\b\u0004\u0004\u0005\u000f\u0004\u0019\u0004\u0011",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-xhdpi/ic_launcher.webp",
+      "label": "ic_launcher.webp",
+      "depth": 2,
+      "summary": "\u0001\u0002\u0001\u0001WAVEfmt \u0003\u0007\u0001\u0002\u0001\u0001\u0005\u0018\u0016\u0011\u0013\u000e\u0010\b\u000e\u0012\u0010\u0015\u0016\u0019\u0018\u0010\u000e\u0004\u0016\u000e\u0006\u0016\u000e\u000e\u0002\b\u0006\u0015\u0016\u0006\u0016\u000e\u000e\u0004\u0016\u000e\u0006\u0016\u000e\u000e\u0002\b\u0006\u0015\u0016\u0006",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp",
+      "label": "ic_launcher_round.webp",
+      "depth": 2,
+      "summary": "\u000f WAVEfile format \b\b\u0004\u0001.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp",
+      "label": "ic_launcher.webp",
+      "depth": 2,
+      "summary": ">WEBP<\u000b>\nRIFF<\u000b>\n<WEBPVP8C<\u000b>WEBP<V<\u000b>WEBPVC1<\u000b>C<\u000b>R<\u000b>IDAT<\u000b>... and many more.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp",
+      "label": "ic_launcher_round.webp",
+      "depth": 2,
+      "summary": "\u0005\u0005\u0006\u0005\u0010\u0010\u000e \u001a\u0018\u0019\u0014\u0018\u0011\u0011\u001c\u0016\u001b\u0012\u001b\u0011\u0011\u001c\u001c\u001a\u001a\u0010\u0010\u0004\u0004\u0006\u0006\u0010\u001a\u0016\u0017\u000e\u000e\u0011\u0015\u001c\u001a\u001a\u001a\u0011\u0005\u0006\u0005\u0014\u0004\u0004\b\u0011\u0011\u0016\u0016\u000e\u0005\u0006\u0011",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp",
+      "label": "ic_launcher.webp",
+      "depth": 2,
+      "summary": "\u0006\t\u0006\u0002\t\t\u0010\t\u0005\t\u0006\u0006\t\u0004\t\u0004\u0012\u0002\u0002\b\u0002\u0004\u0002\b\u0011\u000e\u0004\b\u000e\u0004\b\u0010\u000e\b\u0004\u0011\u000e\u0002\b\u0011\u000e\u0004\b\u0011\u000e\u0004\b\u0010\u000e\b\u0004\u0010\u000e\u0004\b\u0011\u000e\u0004\b",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp",
+      "label": "ic_launcher_round.webp",
+      "depth": 2,
+      "summary": "\b\b\b\b\b\b\b\b\b\b\b\b\u0006\u0006\b \u0010\b\b\b\b\u0012\u0006\b\b\b\b\b\b\b\u0007\u0010\u0010\u0004\b\b\b\b\b\u0011\b\b\b\b\b\b\u0006\u0011\u0011\b\b\b\u0004\b\b \u000e\u0010",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/values/colors.xml",
+      "label": "colors.xml",
+      "depth": 2,
+      "summary": "This file, colors.xml, defines color resources for the VoiceNote project's Android application.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/values/strings.xml",
+      "label": "strings.xml",
+      "depth": 2,
+      "summary": "This file contains static strings for the VoiceNote app's user interface translations.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/values/themes.xml",
+      "label": "themes.xml",
+      "depth": 2,
+      "summary": "This file defines the primary theme style for the VoiceNote application in Android.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/xml/backup_rules.xml",
+      "label": "backup_rules.xml",
+      "depth": 2,
+      "summary": "This file defines backup rules for the VoiceNote project, excluding specific data types.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/xml/data_extraction_rules.xml",
+      "label": "data_extraction_rules.xml",
+      "depth": 2,
+      "summary": "This file specifies data extraction rules for the VoiceNote project, including exclusions for cloud backup and device transfer.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/main/res/xml/file_paths.xml",
+      "label": "file_paths.xml",
+      "depth": 2,
+      "summary": "This file (file_paths.xml) specifies storage paths for VoiceNote app files and cached data.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/test/java/com/example/voicenote/AudioPreprocessorTest.kt",
+      "label": "AudioPreprocessorTest.kt",
+      "depth": 2,
+      "summary": "This file performs unit tests for the audio preprocessing logic in the VoiceNote project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/app/src/test/java/com/example/voicenote/ExampleUnitTest.kt",
+      "label": "ExampleUnitTest.kt",
+      "depth": 2,
+      "summary": "This file is an example local unit test for the VoiceNote project's development environment.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/gradle",
+      "label": "gradle",
+      "depth": 1,
+      "summary": "This folder contains the Gradle build scripts for the VoiceNote project.",
+      "children": [
+        "voicenote/VoiceNote/gradle/libs.versions.toml",
+        "voicenote/VoiceNote/gradle/wrapper/gradle-wrapper.jar",
+        "voicenote/VoiceNote/gradle/wrapper/gradle-wrapper.properties"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/gradle/libs.versions.toml",
+      "label": "libs.versions.toml",
+      "depth": 2,
+      "summary": "This file contains dependency versions for the VoiceNote project using Toml format.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/gradle/wrapper/gradle-wrapper.jar",
+      "label": "gradle-wrapper.jar",
+      "depth": 2,
+      "summary": "\u001b\u0011\u0006\u0014\u0018\u001c\u0018\u001c\u0018\u0015\u0016\u0016\u001c\u0015\u0018\u001b\b\u0010\b\u0017\u0012\u0016\u0017\b\u0004\u0016\b\u0017\u0017\u0011\b\u0011\u0015\u0019\u0016\u0004\u0011\u0012\u0004\u0011\u0015\u0011\b\u0011\u001b\u0016\u0016\u0004\u0011\u0013\u0012\u0011\u0019\u0004\u0011\u0012\u0011\u0011\u001a\u0013",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "voicenote/VoiceNote/gradle/wrapper/gradle-wrapper.properties",
+      "label": "gradle-wrapper.properties",
+      "depth": 2,
+      "summary": "This file specifies Gradle distribution settings for the VoiceNote project build process.",
+      "children": [],
+      "expanded": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "voicenote",
+      "target": "voicenote/VoiceNote/app"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/.gitignore"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/build.gradle.kts"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/google-services.json"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/proguard-rules.pro"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/androidTest/java/com/example/voicenote/ExampleInstrumentedTest.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/AndroidManifest.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/MainActivity.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/VoiceNoteApp.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/components/NoteComponents.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/components/SharedComponents.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/security/SecurityManager.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/OverlayService.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/RecordingState.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/service/VoiceRecordingService.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/ActionExecutor.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/AudioPreprocessor.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/CalendarManager.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/ContactManager.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/DeviceIdProvider.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/PaginationHelper.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/utils/PdfManager.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/core/workers/ReminderWorker.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/AppDatabase.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/ChatMessageDao.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/Converters.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/NoteDao.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/TaskDao.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/local/UserDao.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/AppConfig.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/ChatMessage.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/Note.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/Task.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/model/User.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/network/GroqApi.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/repository/AiRepository.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/data/repository/FirestoreRepository.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/detail/NoteDetailScreen.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/detail/NoteDetailViewModel.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/home/HomeScreen.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/home/HomeViewModel.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/onboarding/OnboardingScreen.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/recording/RecordingScreen.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/recording/RecordingViewModel.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/settings/ApiSettingsScreen.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/settings/ApiSettingsViewModel.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/tasks/TasksScreen.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/features/tasks/TasksViewModel.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Color.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Theme.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/java/com/example/voicenote/ui/theme/Type.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/values/colors.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/values/strings.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/values/themes.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/xml/backup_rules.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/xml/data_extraction_rules.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/main/res/xml/file_paths.xml"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/test/java/com/example/voicenote/AudioPreprocessorTest.kt"
+    },
+    {
+      "source": "voicenote/VoiceNote/app",
+      "target": "voicenote/VoiceNote/app/src/test/java/com/example/voicenote/ExampleUnitTest.kt"
+    },
+    {
+      "source": "voicenote",
+      "target": "voicenote/VoiceNote/gradle"
+    },
+    {
+      "source": "voicenote/VoiceNote/gradle",
+      "target": "voicenote/VoiceNote/gradle/libs.versions.toml"
+    },
+    {
+      "source": "voicenote/VoiceNote/gradle",
+      "target": "voicenote/VoiceNote/gradle/wrapper/gradle-wrapper.jar"
+    },
+    {
+      "source": "voicenote/VoiceNote/gradle",
+      "target": "voicenote/VoiceNote/gradle/wrapper/gradle-wrapper.properties"
+    }
+  ]
+}

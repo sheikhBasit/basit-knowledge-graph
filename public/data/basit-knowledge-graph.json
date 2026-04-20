@@ -134,7 +134,7 @@
       "id": "basit-knowledge-graph/basit-knowledge-graph/analyzer/main.py",
       "label": "main.py",
       "depth": 2,
-      "summary": "This file serves as the main script, building the knowledge graph from specified projects.",
+      "summary": "This script builds the base knowledge graph by populating the public/data directory.",
       "children": [
         "basit-knowledge-graph/basit-knowledge-graph/analyzer/main.py/main"
       ],
@@ -160,7 +160,7 @@
       "id": "basit-knowledge-graph/basit-knowledge-graph/analyzer/summaries_cache.json",
       "label": "summaries_cache.json",
       "depth": 2,
-      "summary": "This file provides a cache of summaries for BMS project content in JSON format.",
+      "summary": "This file contains cached content summaries for the baiser-knowledge-graph project.",
       "children": [],
       "expanded": false
     },
@@ -168,11 +168,20 @@
       "id": "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py",
       "label": "summarizer.py",
       "depth": 2,
-      "summary": "summarize.py fetches, analyzes, and summarizes knowledge in the 'basit-knowledge-graph' project from Groq.",
+      "summary": "This file implements a summarizer for the 'basit-knowledge-graph' project using the OpenAI API.",
       "children": [
+        "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py/_load_keys",
         "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py/_get_client",
         "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py/summarize"
       ],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py/_load_keys",
+      "label": "_load_keys",
+      "depth": 3,
+      "summary": "_load_keys defined in summarizer.py",
+      "children": [],
       "expanded": false
     },
     {
@@ -198,7 +207,9 @@
       "summary": "It contains documentation for the basit-knowledge-graph project used for knowledge representation and querying.",
       "children": [
         "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/plans/2026-04-19-knowledge-graph.md",
-        "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/specs/2026-04-19-knowledge-graph-design.md"
+        "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/plans/2026-04-20-portfolio-website.md",
+        "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/specs/2026-04-19-knowledge-graph-design.md",
+        "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/specs/2026-04-20-portfolio-design.md"
       ],
       "expanded": false
     },
@@ -211,10 +222,26 @@
       "expanded": false
     },
     {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/plans/2026-04-20-portfolio-website.md",
+      "label": "2026-04-20-portfolio-website.md",
+      "depth": 2,
+      "summary": "This file outlines the implementation plan for a recruiter-facing portfolio website for the \"basit-knowledge-graph\" project.",
+      "children": [],
+      "expanded": false
+    },
+    {
       "id": "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/specs/2026-04-19-knowledge-graph-design.md",
       "label": "2026-04-19-knowledge-graph-design.md",
       "depth": 2,
       "summary": "This file specifies the design spec for a GitHub repo generating an interactive knowledge graph for projects in '~/Me/'.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/specs/2026-04-20-portfolio-design.md",
+      "label": "2026-04-20-portfolio-design.md",
+      "depth": 2,
+      "summary": "This file outlines the design spec for transforming the 'basit-knowledge-graph' into a full portfolio website.",
       "children": [],
       "expanded": false
     },
@@ -226,10 +253,21 @@
       "children": [
         "basit-knowledge-graph/basit-knowledge-graph/public/data/.gitkeep",
         "basit-knowledge-graph/basit-knowledge-graph/public/data/ai-dev-team.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/basit-knowledge-graph.json",
         "basit-knowledge-graph/basit-knowledge-graph/public/data/bms.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/daraqutni_scraper.json",
         "basit-knowledge-graph/basit-knowledge-graph/public/data/iimiai-tafseer-abdulbasit.json",
         "basit-knowledge-graph/basit-knowledge-graph/public/data/index.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/manual-projects.json",
         "basit-knowledge-graph/basit-knowledge-graph/public/data/meetsync.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/mishkat_scraper.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/portfolio.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/quran_app.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/sheikhbasit.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/studioprojects.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/tams.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/usman.json",
+        "basit-knowledge-graph/basit-knowledge-graph/public/data/voicenote.json",
         "basit-knowledge-graph/basit-knowledge-graph/public/data/worksheet-daily.json"
       ],
       "expanded": false
@@ -251,10 +289,26 @@
       "expanded": false
     },
     {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/basit-knowledge-graph.json",
+      "label": "basit-knowledge-graph.json",
+      "depth": 2,
+      "summary": "This file contains content preview settings for the basit-knowledge-graph project.",
+      "children": [],
+      "expanded": false
+    },
+    {
       "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/bms.json",
       "label": "bms.json",
       "depth": 2,
       "summary": "This bms.json file describes the content preview of the BMS project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/daraqutni_scraper.json",
+      "label": "daraqutni_scraper.json",
+      "depth": 2,
+      "summary": "This file defines nodes and edges for the 'daraqutni_scraper' project in the knowledge graph.",
       "children": [],
       "expanded": false
     },
@@ -270,7 +324,15 @@
       "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/index.json",
       "label": "index.json",
       "depth": 2,
-      "summary": "The nodeids file appears to store an array of node IDs for the MeetSync application.",
+      "summary": "This file defines a list of projects stored in the basit-knowledge-graph as JSON objects.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/manual-projects.json",
+      "label": "manual-projects.json",
+      "depth": 2,
+      "summary": "This file contains manual project records for the 'basit-knowledge-graph' project in JSON format.",
       "children": [],
       "expanded": false
     },
@@ -279,6 +341,70 @@
       "label": "meetsync.json",
       "depth": 2,
       "summary": "This file defines a knowledge graph node for the MeetSync project in the basit-knowledge-graph project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/mishkat_scraper.json",
+      "label": "mishkat_scraper.json",
+      "depth": 2,
+      "summary": "This file represents a single node in a knowledge graph project, outlining the Mishkat scraper project details.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/portfolio.json",
+      "label": "portfolio.json",
+      "depth": 2,
+      "summary": "This file defines the portfolio project within the basit-knowledge-graph project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/quran_app.json",
+      "label": "quran_app.json",
+      "depth": 2,
+      "summary": "This file defines a knowledge graph node for the Quran_App feature in the 'basit-knowledge-graph' project.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/sheikhbasit.json",
+      "label": "sheikhbasit.json",
+      "depth": 2,
+      "summary": "This file provides metadata and a basic structure for the 'sheikhbasit' project node in the knowledge graph.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/studioprojects.json",
+      "label": "studioprojects.json",
+      "depth": 2,
+      "summary": "The studioprojects.json file documents a project that generates content previews for 'StudioProjects' pages and content.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/tams.json",
+      "label": "tams.json",
+      "depth": 2,
+      "summary": "This file defines a node in the TAMS knowledge graph with associated project details and children nodes.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/usman.json",
+      "label": "usman.json",
+      "depth": 2,
+      "summary": "This file, usman.json, stores node data for the 'Usman' project in the knowlege graph.",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/public/data/voicenote.json",
+      "label": "voicenote.json",
+      "depth": 2,
+      "summary": "This VOICENOTE project JSON file defines a knowledge graph node for the VoiceNote application.",
       "children": [],
       "expanded": false
     },
@@ -298,8 +424,13 @@
       "children": [
         "basit-knowledge-graph/basit-knowledge-graph/src/App.css",
         "basit-knowledge-graph/basit-knowledge-graph/src/App.tsx",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx",
         "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx",
-        "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectGrid.tsx",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/ManualCard.tsx",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectCard.tsx",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectsSection.tsx",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx",
         "basit-knowledge-graph/basit-knowledge-graph/src/index.css",
         "basit-knowledge-graph/basit-knowledge-graph/src/main.tsx",
         "basit-knowledge-graph/basit-knowledge-graph/src/types.ts"
@@ -318,7 +449,7 @@
       "id": "basit-knowledge-graph/basit-knowledge-graph/src/App.tsx",
       "label": "App.tsx",
       "depth": 2,
-      "summary": "This file renders either a project grid or a graph view based on an active project slug.",
+      "summary": "The App.tsx file serves as the main entry point for the basit-knowledge-graph application.",
       "children": [
         "basit-knowledge-graph/basit-knowledge-graph/src/App.tsx/App"
       ],
@@ -333,21 +464,48 @@
       "expanded": false
     },
     {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx",
+      "label": "Contact.tsx",
+      "depth": 2,
+      "summary": "This file renders a contact section in the basit-knowledge-graph project.",
+      "children": [
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx/Contact",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx/links"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx/Contact",
+      "label": "Contact",
+      "depth": 3,
+      "summary": "Contact defined in Contact.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx/links",
+      "label": "links",
+      "depth": 3,
+      "summary": "links defined in Contact.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
       "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx",
       "label": "GraphView.tsx",
       "depth": 2,
-      "summary": "This file renders a visual graph representation of a project's knowledge graph structure.",
+      "summary": "This file renders a d3-powered knowledge graph view for a given slug with dynamic height.",
       "children": [
         "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/DEPTH_COLORS",
         "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/DEPTH_RADII",
         "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/GraphView",
         "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/svgRef",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/containerRef",
         "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/rootId",
         "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/svg",
         "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/width",
-        "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/height",
-        "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/visibleNodes",
-        "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/visibleEdges"
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/h",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/visibleNodes"
       ],
       "expanded": false
     },
@@ -384,6 +542,14 @@
       "expanded": false
     },
     {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/containerRef",
+      "label": "containerRef",
+      "depth": 3,
+      "summary": "containerRef defined in GraphView.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
       "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/rootId",
       "label": "rootId",
       "depth": 3,
@@ -408,10 +574,10 @@
       "expanded": false
     },
     {
-      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/height",
-      "label": "height",
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/h",
+      "label": "h",
       "depth": 3,
-      "summary": "height defined in GraphView.tsx",
+      "summary": "h defined in GraphView.tsx",
       "children": [],
       "expanded": false
     },
@@ -424,28 +590,110 @@
       "expanded": false
     },
     {
-      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/visibleEdges",
-      "label": "visibleEdges",
-      "depth": 3,
-      "summary": "visibleEdges defined in GraphView.tsx",
-      "children": [],
-      "expanded": false
-    },
-    {
-      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectGrid.tsx",
-      "label": "ProjectGrid.tsx",
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx",
+      "label": "Hero.tsx",
       "depth": 2,
-      "summary": "This file renders a grid displaying project information, retrieved from a JSON data source.",
+      "summary": "This file renders a hero section component in the 'basit-knowledge-graph' project with a stacked skill list.",
       "children": [
-        "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectGrid.tsx/ProjectGrid"
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx/Hero",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx/stack"
       ],
       "expanded": false
     },
     {
-      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectGrid.tsx/ProjectGrid",
-      "label": "ProjectGrid",
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx/Hero",
+      "label": "Hero",
       "depth": 3,
-      "summary": "ProjectGrid defined in ProjectGrid.tsx",
+      "summary": "Hero defined in Hero.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx/stack",
+      "label": "stack",
+      "depth": 3,
+      "summary": "stack defined in Hero.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/ManualCard.tsx",
+      "label": "ManualCard.tsx",
+      "depth": 2,
+      "summary": "This file renders a customizable card component for manual project information.",
+      "children": [
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/ManualCard.tsx/ManualCard"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/ManualCard.tsx/ManualCard",
+      "label": "ManualCard",
+      "depth": 3,
+      "summary": "ManualCard defined in ManualCard.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectCard.tsx",
+      "label": "ProjectCard.tsx",
+      "depth": 2,
+      "summary": "This file renders a ProjectCard component displaying project information and an optional graph view.",
+      "children": [
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectCard.tsx/ProjectCard"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectCard.tsx/ProjectCard",
+      "label": "ProjectCard",
+      "depth": 3,
+      "summary": "ProjectCard defined in ProjectCard.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectsSection.tsx",
+      "label": "ProjectsSection.tsx",
+      "depth": 2,
+      "summary": "The ProjectsSection.tsx file retrieves and displays project data from JSON files in the 'basit-knowledge-graph' project.",
+      "children": [
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectsSection.tsx/ProjectsSection"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectsSection.tsx/ProjectsSection",
+      "label": "ProjectsSection",
+      "depth": 3,
+      "summary": "ProjectsSection defined in ProjectsSection.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx",
+      "label": "Skills.tsx",
+      "depth": 2,
+      "summary": "This file defines a skills dictionary for the basit-knowledge-graph project.",
+      "children": [
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx/SKILLS",
+        "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx/Skills"
+      ],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx/SKILLS",
+      "label": "SKILLS",
+      "depth": 3,
+      "summary": "SKILLS defined in Skills.tsx",
+      "children": [],
+      "expanded": false
+    },
+    {
+      "id": "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx/Skills",
+      "label": "Skills",
+      "depth": 3,
+      "summary": "Skills defined in Skills.tsx",
       "children": [],
       "expanded": false
     },
@@ -453,7 +701,7 @@
       "id": "basit-knowledge-graph/basit-knowledge-graph/src/index.css",
       "label": "index.css",
       "depth": 2,
-      "summary": "This file defines basic styling rules for the 'basit-knowledge-graph' project.",
+      "summary": "This file defines custom CSS variables and global styles for the 'basit-knowledge-graph' project.",
       "children": [],
       "expanded": false
     },
@@ -469,7 +717,7 @@
       "id": "basit-knowledge-graph/basit-knowledge-graph/src/types.ts",
       "label": "types.ts",
       "depth": 2,
-      "summary": "This file exports data interfaces defining structures for a knowledge graph in the basit-knowledge-graph project.",
+      "summary": "This file exports types defining the structure of nodes, edges, and entire graphs within the 'basit-knowledge-graph' project.",
       "children": [],
       "expanded": false
     }
@@ -545,6 +793,10 @@
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py/_load_keys"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py",
       "target": "basit-knowledge-graph/basit-knowledge-graph/analyzer/summarizer.py/_get_client"
     },
     {
@@ -561,7 +813,15 @@
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/docs",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/plans/2026-04-20-portfolio-website.md"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/docs",
       "target": "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/specs/2026-04-19-knowledge-graph-design.md"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/docs",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/docs/superpowers/specs/2026-04-20-portfolio-design.md"
     },
     {
       "source": "basit-knowledge-graph",
@@ -577,7 +837,15 @@
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/basit-knowledge-graph.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
       "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/bms.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/daraqutni_scraper.json"
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/public",
@@ -589,7 +857,43 @@
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/manual-projects.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
       "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/meetsync.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/mishkat_scraper.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/portfolio.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/quran_app.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/sheikhbasit.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/studioprojects.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/tams.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/usman.json"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/public",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/public/data/voicenote.json"
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/public",
@@ -613,6 +917,18 @@
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/src",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx/Contact"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Contact.tsx/links"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src",
       "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx"
     },
     {
@@ -633,6 +949,10 @@
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/containerRef"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx",
       "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/rootId"
     },
     {
@@ -645,23 +965,59 @@
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx",
-      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/height"
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/h"
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx",
       "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/visibleNodes"
     },
     {
-      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx",
-      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/GraphView.tsx/visibleEdges"
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx/Hero"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Hero.tsx/stack"
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/src",
-      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectGrid.tsx"
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/ManualCard.tsx"
     },
     {
-      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectGrid.tsx",
-      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectGrid.tsx/ProjectGrid"
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/ManualCard.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/ManualCard.tsx/ManualCard"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectCard.tsx"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectCard.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectCard.tsx/ProjectCard"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectsSection.tsx"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectsSection.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/ProjectsSection.tsx/ProjectsSection"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx/SKILLS"
+    },
+    {
+      "source": "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx",
+      "target": "basit-knowledge-graph/basit-knowledge-graph/src/components/Skills.tsx/Skills"
     },
     {
       "source": "basit-knowledge-graph/basit-knowledge-graph/src",
