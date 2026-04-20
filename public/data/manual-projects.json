@@ -3,26 +3,89 @@
     "slug": "nexavoxa",
     "project": "NexaVoxa",
     "category": "professional",
-    "description": "AI-powered voice agent platform — real-time multilingual voice conversations with LLM integration.",
-    "tech": ["Python", "Pipecat", "LiveKit", "FastAPI", "PostgreSQL", "Docker"],
-    "repo": "",
-    "role": "Backend Engineer · AI Integration"
-  },
-  {
-    "slug": "auc-backend",
-    "project": "AUC Backend",
-    "category": "professional",
-    "description": "Backend API for the AUC platform — VillaEx Technologies.",
-    "tech": ["Node.js", "Express", "PostgreSQL", "Drizzle ORM", "Docker"],
+    "description": "AI calling agent platform utilizing RAG — backend with FastAPI and Llama Index for real-time voice conversations.",
+    "tech": ["FastAPI", "Python", "Llama Index", "LiveKit", "PostgreSQL", "Docker"],
     "repo": "",
     "role": "Backend Engineer"
+  },
+  {
+    "slug": "auc-law",
+    "project": "AUC Law Management",
+    "category": "professional",
+    "description": "Firm management dashboard to maintain Law Firm cases data — analytics and management system.",
+    "tech": ["FastAPI", "Python", "PostgreSQL", "Docker"],
+    "repo": "",
+    "role": "Backend Engineer"
+  },
+  {
+    "slug": "quran-bot",
+    "project": "Quran Bot",
+    "category": "personal",
+    "description": "AI Quran assistant using FastAPI with custom RAG implementation — HyDe and re-ranking for accurate retrieval.",
+    "tech": ["FastAPI", "Python", "LangChain", "PostgreSQL"],
+    "repo": "",
+    "role": "Full-Stack Developer"
+  },
+  {
+    "slug": "voice-note",
+    "project": "Voice Note",
+    "category": "personal",
+    "description": "AI assistant app using FastAPI and Kotlin — integrated Whisper STT to take notes and set up tasks and reminders.",
+    "tech": ["FastAPI", "Python", "Kotlin", "Whisper"],
+    "repo": "",
+    "role": "Full-Stack Developer"
+  },
+  {
+    "slug": "surgimart",
+    "project": "SurgiMart",
+    "category": "paid",
+    "description": "E-commerce platform for surgical equipment — Next.js app utilizing AI models.",
+    "tech": ["Next.js", "TypeScript", "AI Models"],
+    "repo": "",
+    "role": "Full-Stack Developer"
+  },
+  {
+    "slug": "psf-sports",
+    "project": "PSF Sports",
+    "category": "paid",
+    "description": "Blogging platform for the Pakistan Sports Federation — built with Next.js.",
+    "tech": ["Next.js", "TypeScript", "Node.js"],
+    "repo": "",
+    "role": "Full-Stack Developer"
+  },
+  {
+    "slug": "go-bars",
+    "project": "Go Bars",
+    "category": "paid",
+    "description": "Booking app for barber salon slots — Expo mobile app for scheduling and managing barber appointments.",
+    "tech": ["React Native", "Expo", "Node.js", "Firebase"],
+    "repo": "",
+    "role": "Full-Stack Developer"
+  },
+  {
+    "slug": "auto-assist",
+    "project": "Auto Assist",
+    "category": "paid",
+    "description": "AI assistant platform backend using FastAPI and LangChain for advanced conversational capabilities.",
+    "tech": ["FastAPI", "Python", "LangChain", "PostgreSQL"],
+    "repo": "",
+    "role": "Backend Developer"
+  },
+  {
+    "slug": "foodie-app",
+    "project": "Food Delivery App",
+    "category": "paid",
+    "description": "Mobile food delivery app — robust backend with Node.js and Firebase for authentication and order processing.",
+    "tech": ["Node.js", "Firebase", "React Native"],
+    "repo": "https://github.com/Engghassanali/foodieApp",
+    "role": "Backend Developer"
   },
   {
     "slug": "car-rental",
     "project": "Car Rental System",
     "category": "paid",
-    "description": "Full-stack car rental platform with booking, fleet management, and payment integration.",
-    "tech": ["Node.js", "React", "PostgreSQL", "Express"],
+    "description": "Full-stack car rental platform — booking, car availability, and user management with Expo, React and Express.",
+    "tech": ["React Native", "Expo", "React", "Express", "Node.js"],
     "repo": "https://github.com/sheikhBasit/carRentalBackend",
     "role": "Full-Stack Developer"
   },
@@ -36,30 +99,12 @@
     "role": "Full-Stack Developer"
   },
   {
-    "slug": "paf-sports",
-    "project": "PAF Sports Board",
-    "category": "paid",
-    "description": "Official website for Pakistan Air Force Sports Board — event management and athlete profiles.",
-    "tech": ["React", "Node.js", "PostgreSQL"],
-    "repo": "https://github.com/sheikhBasit/paf",
-    "role": "Full-Stack Developer"
-  },
-  {
     "slug": "ecommerce-madnisofts",
     "project": "EcommerceMadnisofts",
     "category": "paid",
     "description": "Full-featured e-commerce platform with product management, cart, and order tracking.",
     "tech": ["React", "Node.js", "MongoDB", "Express"],
     "repo": "https://github.com/Engghassanali/EcommerceMadnisofts",
-    "role": "Backend Developer"
-  },
-  {
-    "slug": "foodie-app",
-    "project": "Foodie App",
-    "category": "paid",
-    "description": "Food delivery app with restaurant listings, real-time order tracking, and driver management.",
-    "tech": ["React Native", "Node.js", "PostgreSQL"],
-    "repo": "https://github.com/Engghassanali/foodieApp",
     "role": "Backend Developer"
   },
   {
