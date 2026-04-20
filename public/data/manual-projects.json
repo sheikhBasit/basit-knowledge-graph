@@ -1,5 +1,50 @@
 [
   {
+    "slug": "ashi",
+    "project": "ASHI — Personal AI OS",
+    "category": "personal",
+    "description": "Personal AI OS with agent loop, voice interface, memory, Vizier mode, and Tauri desktop app.",
+    "tech": ["Python", "TypeScript", "Tauri", "LangGraph", "Ollama"],
+    "repo": "https://github.com/sheikhBasit/ashi",
+    "role": "Creator"
+  },
+  {
+    "slug": "env-mcp-server",
+    "project": "Env MCP Server",
+    "category": "personal",
+    "description": "MCP server for reading, validating, and diffing .env files — exposes environment and secrets inspection to AI agents.",
+    "tech": ["TypeScript", "Node.js", "MCP"],
+    "repo": "https://github.com/sheikhBasit/env-mcp-server",
+    "role": "Creator"
+  },
+  {
+    "slug": "log-mcp-server",
+    "project": "Log MCP Server",
+    "category": "personal",
+    "description": "MCP server for log analysis — tail, search, and summarize logs from files and Docker containers.",
+    "tech": ["TypeScript", "Node.js", "Docker", "MCP"],
+    "repo": "https://github.com/sheikhBasit/log-mcp-server",
+    "role": "Creator"
+  },
+  {
+    "slug": "pg-mcp-server",
+    "project": "PG MCP Server",
+    "category": "personal",
+    "description": "PostgreSQL MCP server — expose database operations to AI agents.",
+    "tech": ["TypeScript", "Node.js", "PostgreSQL", "MCP"],
+    "repo": "https://github.com/sheikhBasit/pg-mcp-server",
+    "role": "Creator"
+  },
+  {
+    "slug": "openapi-mcp-server",
+    "project": "OpenAPI MCP Server",
+    "category": "personal",
+    "description": "Runtime OpenAPI → MCP bridge — point at any OpenAPI spec and instantly get MCP tools for AI agents.",
+    "tech": ["TypeScript", "Node.js", "OpenAPI", "MCP"],
+    "repo": "https://github.com/sheikhBasit/openapi-mcp-server",
+    "role": "Creator"
+  },
+  {
     "slug": "nexavoxa",
     "project": "NexaVoxa",
     "category": "professional",
